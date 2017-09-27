@@ -9,14 +9,13 @@ Administration
 
 include::sitka-style-main.adoc[]
 
-include::sitka-style-main.adoc[]
-
 Circulation
 -----------
 
+include::administration.adoc[]
+
 // Push titles down one level.
 :leveloffset: 1
-include::administration.adoc[]
 
 include::sitka-style-second.adoc[]
 
