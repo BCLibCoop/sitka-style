@@ -1,4 +1,4 @@
-= Thingie
+= Table of Contents
 Author
 
 include::sitka-style-main.adoc[]
