@@ -2,3 +2,4 @@
 Author
 
 include::sitka-style-main.adoc[]
+include::sitka-style/administration.adoc[]
