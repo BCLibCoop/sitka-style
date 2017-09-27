@@ -3,7 +3,6 @@ Sitka's Evergreen Documentation
 
 :doctype: book
 :toc:
-:numbered:
 
 Administration
 --------------
