@@ -1,15 +1,25 @@
-<<<<<<< HEAD
-= Table of Contents
-Author
+Sitka's Evergreen Documentation
+===============================
+
+:doctype: book
+:toc:
+:numbered:
+
+Administration
+--------------
 
 include::sitka-style-main.adoc[]
-=======
-= Table of Contents
-Author
 
 include::sitka-style-main.adoc[]
 
+Circulation
+-----------
+
+// Push titles down one level.
+:leveloffset: 1
 include::administration.adoc[]
 
 include::sitka-style-second.adoc[]
->>>>>>> master
+
+// Return to normal title levels.
+:leveloffset: 0
