@@ -1,5 +1,6 @@
 Sitka's Evergreen Documentation
 ===============================
+Training Manual
 :doctype: book
 :toc:
 :numbered:
