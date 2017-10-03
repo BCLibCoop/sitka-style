@@ -4,8 +4,17 @@ Sitka's Evergreen Documentation
 :toc:
 :numbered:
 
+Introduction
+============
+
+Getting started
+---------------
+
+New in 3.0
+----------
+
 Administration
---------------
+==============
 
 include::sitka-style-main.adoc[]
 
