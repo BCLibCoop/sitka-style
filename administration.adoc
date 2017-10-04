@@ -21,19 +21,6 @@ About Evergreen
 
 include::sitka-style/sitka-style-about_evergreen.adoc[]
 
-:leveloffset: -1
-
-include::admin/web_client-login.adoc[]
-
-:leveloffset: 0
-
-include::admin/web_client-browser-tab-shortcuts.adoc[]
-
-:leveloffset: -1
-
-include::admin/librarysettings.adoc[]
-
-:leveloffset: 0
 
 Organizational Unit administration
 ==================================
