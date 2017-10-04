@@ -38,6 +38,9 @@ include::admin/librarysettings.adoc[]
 Organizational Unit administration
 ==================================
 
+image:media-sitka-style/logo.png
+
+
 // Cat
 Cataloging administration
 =========================
