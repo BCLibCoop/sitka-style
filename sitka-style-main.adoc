@@ -1,5 +1,4 @@
 = My First Experience with the Dangers of Documentation
-:imagesdir: myimages
 :data-uri:
 
 In my world, we don't have to worry about mutant, script-injecting warlocks.
