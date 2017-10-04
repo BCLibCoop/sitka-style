@@ -1,5 +1,4 @@
 = My Second Experience with the Dangers of Documentation
-:imagesdir: myimages
 :data-uri:
 
 This is a new page
