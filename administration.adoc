@@ -19,7 +19,7 @@ Copies of this guide can be accessed in PDF and HTML formats from http://docs.ev
 About Evergreen
 ----------------
 
-include::shared/about_evergreen.adoc[]
+include::sitka-style/sitka-style-about_evergreen.adoc[]
 
 :leveloffset: -1
 
