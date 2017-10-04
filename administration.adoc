@@ -38,7 +38,7 @@ include::admin/librarysettings.adoc[]
 Organizational Unit administration
 ==================================
 
-image:sitka-style/images/Admin/logo.png[]
+image::sitka-style/images/Admin/logo.png[]
 
 
 // Cat
