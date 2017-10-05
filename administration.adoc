@@ -27,7 +27,7 @@ Organizational Unit administration
 
 image::images/Admin/logo.png[]
 
-This is a test demo of GITHUB for Sitka's Evergreen Documentation.
+This is a test of GITHUB for Sitka's Evergreen Documentation.
 
 // Cat
 Cataloging administration
