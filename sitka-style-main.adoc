@@ -13,6 +13,10 @@ You may not be familiar with these http://en.wikipedia.org/wiki/Wolpertinger[rav
 
 <<block-element-test-1>>
 
+[[<anchor-test>,<Anchors are Fun>]]
+Did you know anchors are fun to use?  Well let's see if they work.
+
+
 Test #1
 ^^^^^^^
 
