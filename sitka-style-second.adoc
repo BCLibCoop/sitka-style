@@ -5,5 +5,8 @@ This is a new page
 
 == Origins
 
+[[block-element-test-1]]
+This paragaph is an example of a block id element and I have no idea how it will actually work out.
+
 New pages
 ^^^^^^^

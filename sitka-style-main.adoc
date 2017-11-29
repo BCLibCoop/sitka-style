@@ -11,6 +11,8 @@ And Wolpertingers are most common in prod.
 
 You may not be familiar with these http://en.wikipedia.org/wiki/Wolpertinger[ravenous beasts], but, trust me, they'll eat your shorts and suck the loops from your code.
 
+<<block-element-test-1>>
+
 Test #1
 ^^^^^^^
 
