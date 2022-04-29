@@ -1,0 +1,25 @@
+Feature Requests
+----------------
+
+Feature request = a system change or enhancement requested by a Sitka Site.
+
+.Process
+. Ticket is received
+. Make sure request includes all necessary information, make sure we have a clear understanding of what the library is asking for - email library for clarification if required
+. Include descriptive subject line.
+. Specify "Feature Request" in subject line.
+. Add appropriate tags
+. Search RT for existing tickets - link or merge as appropriate
+. Search Launchpad for Bug or Wishlist Item -
+. If no existing bug / wishlist item, create one
+. If there is an existing bug - Select "This bug affects you"
+. Add launchpad bug # to RT Ticket
+. If indicated on Launch pad - include expected release in RT Ticket
+. Move to Feature Request Queue
+. Set ticket priority
+  .. Low = 1 library request, or obscure feature (may be related to workflow, or library process)
+  .. Medium = +1 library request, or useful feature that more sites will benefit from
+  .. High = +1 library request, Interrupts workflow, or is a bug that requires significant development to resolve.
+  .. Urgent - important or essential feature lost through upgrade
+. Email library to advise issue has been put in feature request queue
+. Include information about status (Launch pad / Sitka Development work)

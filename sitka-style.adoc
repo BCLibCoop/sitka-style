@@ -10,6 +10,13 @@ Introduction
 
 include::Introduction/newstafforientation.adoc[]
 
+Tickets
+=======
+
+include::Tickets/triage.adoc[]
+
+include::Tickets/feature-request.adoc[]
+
 
 Tier 1 Support
 ==============
