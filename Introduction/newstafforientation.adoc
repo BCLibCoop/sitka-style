@@ -1,0 +1,12 @@
+New Staff Orientation
+=====================
+
+New Staff should read and understand
+
+https://wiki.libraries.coop/doku.php?id=cooperative:orientation:about-the-coop [About the Co-op]
+
+https://wiki.libraries.coop/doku.php?id=cooperative:orientation:tools-and-systems [Tools and Systems]
+
+https://wiki.libraries.coop/doku.php?id=cooperative:orientation:procedures-and-expectations [Procedures and Expectations]
+
+https://wiki.libraries.coop/doku.php?id=techadmin:security:security-advisory-for-staff [Security Advisory]

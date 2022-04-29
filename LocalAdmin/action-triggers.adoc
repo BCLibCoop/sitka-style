@@ -1,0 +1,12 @@
+Action Triggers
+---------------
+
+This section discusses the initial setup and subsequent troubleshooting and refinement of action triggers.
+
+
+
+Edit Action Trigger Templates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+New Action Trigger Templates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~

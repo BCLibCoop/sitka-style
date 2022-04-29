@@ -1,0 +1,15 @@
+Library Staff accounts
+----------------------
+
+Only Sitka Staff can update Local System Administrator accounts
+
+Grant Local System Administrator Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Renew/Edit LSA Account
+~~~~~~~~~~~~~~~~~~~~~~
+
+
+Grant Reporter Permissions
+~~~~~~~~~~~~~~~~~~~~~~~~~~

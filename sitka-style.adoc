@@ -1,6 +1,6 @@
-Sitka's Evergreen Documentation
-===============================
-Training Manual
+Sitka's Staff Documentation
+===========================
+Sitka's staff Documentation
 :doctype: book
 :toc:
 :numbered:
@@ -8,26 +8,28 @@ Training Manual
 Introduction
 ============
 
-Getting started
----------------
+include::Introduction/newstafforientation.adoc[]
 
-New in 3.0
-----------
 
-Administration
+Tier 1 Support
 ==============
 
-include::sitka-style-main.adoc[]
+include::Introduction/sitka-evergreen.adoc[]
 
-Circulation
------------
+include::LibraryStaff/accounts.adoc[]
 
-include::administration.adoc[]
+include::LocalAdmin/action-triggers.adoc[]
 
-// Push titles down one level.
-:leveloffset: 1
+include::LocalAdmin/permission-tree-display.adoc[]
 
-include::sitka-style-second.adoc[]
+Tier 2 Support
+==============
 
-// Return to normal title levels.
-:leveloffset: 0
+include::LocalAdmin/circulation-policies.adoc[]
+
+include::LocalAdmin/hold-policies.adoc[]
+
+Creating Support Resources
+==========================
+
+include::Creatingresources/sitka-style-guide.adoc

@@ -1,0 +1,15 @@
+Supporting Sitka's Evergreen
+----------------------------
+
+Sitka Staff account
+~~~~~~~~~~~~~~~~~~~
+
+
+Logging Into Evergreen
+~~~~~~~~~~~~~~~~~~~~~~
+
+Choosing a workstation
+
+- All patron / staff account tickets will require you to login to a library specific workstation location
+
+- Admin / policy tickets can be done from any workstation location
