@@ -1,29 +1,11 @@
-= My First Experience with the Dangers of Documentation
-:data-uri:
+Style guide
+-----------
 
-In my world, we don't have to worry about mutant, script-injecting warlocks.
-No.
-We have something far worse.
-We're plagued by Wolpertingers.
-And Wolpertingers are most common in prod.
+Creating Support Resources
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-== Origins
+https://wiki.libraries.coop/doku.php?id=cooperative:communications:visual_identity [Visual Identity]
 
-You may not be familiar with these http://en.wikipedia.org/wiki/Wolpertinger[ravenous beasts], but, trust me, they'll eat your shorts and suck the loops from your code.
+https://wiki.libraries.coop/doku.php?id=sitka:support:creating_support_resources:style_guide [AsciiDoc Style Guide]
 
-<<block-element-test-1>>
-
-[[<anchor-test>,<Anchors are Fun>]]
-Did you know anchors are fun to use?  Well let's see if they work.
-
-
-Test #1
-^^^^^^^
-
-This is a test of the GITHUB desktop application - CB
-
-
-test level 4
-++++++++++++
-
-level 4 text goes here 
+https://wiki.libraries.coop/doku.php?id=sitka:support:creating_support_resources:style_guide:consistent_wording [Consistent Wording]
