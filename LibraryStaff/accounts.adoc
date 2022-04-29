@@ -1,15 +1,48 @@
 Library Staff accounts
 ----------------------
 
-Only Sitka Staff can update Local System Administrator accounts
+In Evergreen library staff accounts are the same as patron accounts with two differences.
+
+. Staff accounts use Main (Profile) Permissions Groups with permissions that give access to Evergreen’s staff functions.
+. Staff accounts have working locations which tell Evergreen which libraries or branches an account can be used at.
+
+http://docs.libraries.coop/sitka/_library_staff_accounts.html [Related Chapter in Sitka's Evergreen Documentation]
+
+NOTE: You must log in using a workstation registered to the requestors home library for all Library Staff related tickets.
 
 Grant Local System Administrator Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+The Local System Administrator permission group can only be assigned by Sitka Staff. Libraries may create an account using any permission group and then submit a request to Support to have the account updated to local system administrator. Please include the account’s barcode in the request.
 
 Renew/Edit LSA Account
 ~~~~~~~~~~~~~~~~~~~~~~
 
+The Local System Administrator permission group can only be edited by Sitka Staff
 
 Grant Reporter Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.All Staff Permissions
+. Add perms**
+. Add barcode to end of Ticket Subject
+. Add library code to subject (start)
+. Add library tag
+. Resolved / Fixed
+. Reply to Requestor - Reporter View Output Permissions granted & link to docs
+
+.Full Reports Permissions
+. Add perms**
+. Add barcode to end of Ticket Subject
+. Add library code to subject (start)
+. Add library tag
+. Resolved / Fixed
+. Reply to Requestor - Reporter Full Permissions granted & link to docs
+
+
+New SIP Account
+~~~~~~~~~~~~~~~
+
+
+Evergreen Self Check
+~~~~~~~~~~~~~~~~~~~~

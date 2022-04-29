@@ -1,7 +1,31 @@
 Action Triggers
 ---------------
 
-This section discusses the initial setup and subsequent troubleshooting and refinement of action triggers.
+https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:name_trigger [Action Trigger info from Wiki]
+
+
+This section discusses the initial setup and refinement of action trigger templates.
+
+Action Trigger templates are used in various system processes
+
+.Templates
+* Print
+* Automatically set overdue items to Lost
+* Patron Email Notifications
+
+Some templates are set at the Sitka level and cannot be customized.  Most templates are customizable per library.
+
+.Can't customize
+* Print Call number
+* Print PO
+
+. Can customize
+* Courtesy Notifications
+* Overdue Notifications
+* Lost Notifications
+* Circulation Notifications
+* Hold Notifications
+* Patron Account Notifications
 
 
 
@@ -10,3 +34,11 @@ Edit Action Trigger Templates
 
 New Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+
+
+
+NOTE - http://docs.libraries.coop/sitka/admin-notice.html [Patron Notifications]

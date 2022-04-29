@@ -32,4 +32,4 @@ include::LocalAdmin/hold-policies.adoc[]
 Creating Support Resources
 ==========================
 
-include::Creatingresources/sitka-style-guide.adoc
+include::Creatingresources/sitka-style-guide.adoc[]

@@ -1,8 +1,17 @@
 Hold Policies
 -------------
 
+https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:hold_policy [Circulation Policy info from Wiki]
+
+
 Edit Hold policies
 ~~~~~~~~~~~~~~~~~~
 
 Add Hold policies
 ~~~~~~~~~~~~~~~~~
+
+
+Suspend ILC Holds
+~~~~~~~~~~~~~~~~~
+
+https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:suspend_ilc_policy [Suspend ILC Hold]
