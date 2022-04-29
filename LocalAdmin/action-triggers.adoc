@@ -8,8 +8,8 @@ This section discusses the initial setup and refinement of action trigger templa
 
 Action Trigger templates are used in various system processes
 
-.Templates
-* Print
+.Action Triggers are used for
+* Some Print functions
 * Automatically set overdue items to Lost
 * Patron Email Notifications
 
@@ -19,7 +19,7 @@ Some templates are set at the Sitka level and cannot be customized.  Most templa
 * Print Call number
 * Print PO
 
-. Can customize
+.Can customize
 * Courtesy Notifications
 * Overdue Notifications
 * Lost Notifications
