@@ -1,0 +1,23 @@
+Request Tracker
+---------------
+
+https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:request_tracker [Request Tracker info from Wiki]
+
+Settings
+~~~~~~~~
+
+.Settings
+. RT at a glace - Home page refresh interval
+. Ticket Display - Notify me of unread messages
+. About Me - Signature
++
+image::images/intro/signature.png [Signature]
++
+. Queue List - Select queues to be displayed on the *RT at a glance* page
+
+Home Page
+~~~~~~~~~
+
+*RT at a glance: body*
+
+*RT at a glance: sidebar*

@@ -1,2 +1,17 @@
 Permission Tree display
 -----------------------
+
+Libraries can request for us to customize the displayed list of permission groups for easier patron registration. The drop-down menu for Main (Profile) Permission Group on the Register Patron and Patron Edit screens will be customized to show only the permission groups the library currently uses.
+
+.Add New Custom Permission Tree
+. Library Sends Request
+. Run Report to verify permission groups in use (remember to include staff!!)
+. *Administration* -> *Local Administration* -> *Permission Tree Display Entries*
+. Permission Group Entries in Library:
+. Click *Add*
+. Add Root Entries for *##Library Users* and *##Library Staff*
+.. Choose the appropriate types based on Libray Type (Public, Post-Secondary, Special)
+
+
+.Edit Custom Permission tree
+. *Administration* -> *Local Administration* -> *Permission Tree Display Entries*
