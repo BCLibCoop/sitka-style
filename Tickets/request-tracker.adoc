@@ -11,7 +11,7 @@ Settings
 . Ticket Display - Notify me of unread messages
 . About Me - Signature
 +
-image::images/intro/signature.png [Signature]
+image::images/Intro/signature.png [Signature]
 +
 . Queue List - Select queues to be displayed on the *RT at a glance* page
 
