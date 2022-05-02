@@ -13,12 +13,29 @@ NOTE: You must log in using a workstation registered to the requestors home libr
 Grant Local System Administrator Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Local System Administrator permission group can only be assigned by Sitka Staff. Libraries may create an account using any permission group and then submit a request to Support to have the account updated to local system administrator. Please include the account’s barcode in the request.
+The Local System Administrator permission group can only be assigned by Sitka Staff. Libraries may create an account using any permission group and then submit a request to Support to have the account updated to local system administrator.
+
+.process
+. Log in using a workstation registered to the requestors home library
+. *Circulation* -> *Check Out*
+. Retrieve account using account barcode (or Patron Search)
+. Check to make sure the account has a working location
+. Check to make sure the account has an email address
+. Edit -> Change *Main (Profile) Permission Group* = Local System administrator
+.. Make sure to choose the correct group by library type (Public, Post-Sec, Special or Government)
+. Click *Save*
 
 Renew/Edit LSA Account
 ~~~~~~~~~~~~~~~~~~~~~~
 
 The Local System Administrator permission group can only be edited by Sitka Staff
+
+.process
+. Log in using a workstation registered to the requestors home library
+. *Circulation* -> *Check Out*
+. Retrieve account using account barcode (or Patron Search)
+. Edit -> Make requested changes or click *Update Expire Date*
+. Click *Save*
 
 Grant Reporter Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
