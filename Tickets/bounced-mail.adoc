@@ -1,0 +1,104 @@
+Bounced Mail
+------------
+
+.Process to Deal with Items in Bounced Mail Queue
+. Ticket is received in Bounced Mail Queue
+. Determine the type of bounce (SMS Hold Notification, Report Notification, Out of Office, Password Reset Request, Co-op Website, Other)
+.. SMS = Notify Library
+.. Report = Notify Library
+.. Out of Office = Ususally just delete, but read the message first, if it is an extended absence remove from mailing list
+.. Password Reset Request = Notify Library
+.. Co-op Website = Notify appropriate group
+.. Other = we have outlined the most common instances of bounce mail here, other scenarios will need to be handled as they arise (document issue & resolution here if it is something that may happen again)a
+
+.Evergreen SMS
+. Edit Subject Line
+.. Add library short code to the beginning
+.. Add SMS to the end
+.. ex. BSQ - Undelivered Mail Returned to Sender - SMS
+. Add Library as Requestor
+. Email the patrons library to follow-up
+.. Specify Patron First Name (easier for Libraries to follow-up)
+
+Hello,
+
+We received the following failure message for a Text message hold notification for one of your patrons. Please follow up with your patron to let them know that the hold is available for pickup and verify the phone # on file.
+
+
+.Evergreen Reports
+. Edit Subject Line
+.. Add library short code to the beginning
+.. Add Reports to the end
+.. ex. BSQ - Undelivered Mail Returned to Sender - Reports
+. Add Library as Requestor
+. Email the patrons library to follow-up
+
+Hello
+
+We received the following report completion notification as a bounced email.
+
+Email sent to {Insert Email Address}
+
+{Insert Report Details}
+
+It appears as though the email address was maybe entered incorrectly. If this is a recurring report, you will need to delete the exisiting report and set it up using the correct email address.
+
+Instructions can be found here http://docs.sitka.bclibraries.ca/Sitka/current/html/recurring-report.html
+
+Please let us know if you have any questions.
+
+
+
+====Evergreen Notification====
+
+  * Edit Subject Line
+    * Add library short code to the beginning
+    * ex. BSQ - Undelivered Mail Returned to Sender
+  * Add Library as Requestor
+  * Email the patrons library to follow-up
+
+Hello
+
+We have been receiving your libraries bounced emails for automatically generated patron notices (e.g. email overdues, email holds notification). These bounced emails are caused by patrons with incorrect email addresses or problems with the patrons' mail servers.
+
+In order for you to receive these emails you will need to add an email address to the "sending email address for patron notices" setting in the Library Settings Editor in Evergreen.
+
+You must be logged in with a Local System Administrator account to complete the following
+
+  - Click on Admin
+  - Select Local Administration
+  - Select Library Settings Editor
+  - Choose your Library in the Context Location (this will default to the location your workstation is registered to)
+  - Search or Scroll to find the setting "Program: Sending email address for patron notices"
+  - Click on Edit
+  - Choose your Library in the Context field (this will default to the location your workstation is registered to)
+  - Enter the email address in the Value field
+  - Click on Update Setting
+
+It is good practice to set up a generic account, like info@nameofyourlibrary.ca, so that one person’s individual email inbox doesn’t get cluttered with emails that were not delivered.
+
+Please let me know if you have any questions.
+
+====Website====
+
+Follow-up with the appropriate Group (NNELS, Licensing, LibPress)
+
+====Auto-Reply / Out of Office====
+
+Read the message if regular vacation - Just delete the ticket
+If extended Out of Office (Parental Leave / Sabbatical) - Remove from Email Group
+
+====Password Resets====
+
+  * Edit Subject Line
+    * Add library short code to the beginning
+    * Add Password to the end
+    * ex. BSQ - Undelivered Mail Returned to Sender - Password
+  * Add Library as Requestor
+  * Email the patrons library to follow-up
+
+Email the patrons library to follow-up
+
+Hello,
+
+Your Patron {Insert Patron Email address} has requested a password reset, but the request was bounced back to us, most likely due to an invalid email address. Please follow up with the patron to reset their password and verify the email address in the Patron account.

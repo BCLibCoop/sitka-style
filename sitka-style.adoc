@@ -13,9 +13,13 @@ include::Introduction/newstafforientation.adoc[]
 Tickets
 =======
 
-include::Tickets/triage.adoc[]
+include::Tickets/request-tracker.adoc[]
+
+include::Tickets/bounced-mail.adoc[]
 
 include::Tickets/feature-request.adoc[]
+
+include::Tickets/sitka-bugs.adoc[]
 
 
 Tier 1 Support
