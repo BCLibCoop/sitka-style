@@ -48,13 +48,25 @@ Grant Reporter Permissions
 . Resolved / Fixed
 . Reply to Requestor - Reporter View Output Permissions granted & link to docs
 
-.Full Reports Permissions
-. Add perms**
-. Add barcode to end of Ticket Subject
-. Add library code to subject (start)
-. Add library tag
-. Resolved / Fixed
-. Reply to Requestor - Reporter Full Permissions granted & link to docs
+.Full Reporter Permissions
+. Ticket is received in Sitka Support Queue with subject = *New Full Reporter Privacy Waiver Submission*
+. Log in to Evergreen using a workstation registered to the requestors home library
+. *Circulation* -> *Check Out*
+. Retrieve account using account barcode (or Patron Search)
+. Edit -> Verify the account contains the following: First Name, Last Name, Email, Phone Number, & Address.
+.. Incomplete staff accounts will not be granted reporter permissions.
+. Click *Secondary Groups* -> choose *Reporter Full Permissions*
+. Click *Add*
+. Click *Apply Changes*
+. Click *Save*
+. Update RT ticket
+.. Add the library code to start of the ticket subject
+.. Add the account barcode to end of the ticket subject
+.. Add library tag
+.. Set status to Resolved
+.. Set resolution to Fixed
+. Reply to Requestor
+.. Include links to reports documentation 
 
 
 New SIP Account
