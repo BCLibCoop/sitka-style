@@ -44,3 +44,10 @@ Creating Support Resources
 ==========================
 
 include::Creatingresources/sitka-style-guide.adoc[]
+
+Public Catalogue
+================
+
+include::publiccatalogue/bootstrap-settings.adoc[]
+
+include::publiccatalogue/login-customizations.adoc[]

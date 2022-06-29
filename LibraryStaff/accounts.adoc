@@ -19,7 +19,7 @@ The Local System Administrator permission group can only be assigned by Sitka St
 . Log in using a workstation registered to the requestors home library
 . *Circulation* -> *Check Out*
 . Retrieve account using account barcode (or Patron Search)
-. Check to make sure the account has a working location
+. Check the *User Permission Editor* to verify the account has a working location
 . Check to make sure the account has an email address
 . Edit -> Change *Main (Profile) Permission Group* = Local System administrator
 .. Make sure to choose the correct group by library type (Public, Post-Sec, Special or Government)
@@ -66,7 +66,7 @@ Grant Reporter Permissions
 .. Set status to Resolved
 .. Set resolution to Fixed
 . Reply to Requestor
-.. Include links to reports documentation 
+.. Include links to reports documentation
 
 
 New SIP Account

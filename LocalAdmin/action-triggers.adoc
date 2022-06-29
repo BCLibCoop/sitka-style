@@ -32,8 +32,35 @@ Some templates are set at the Sitka level and cannot be customized.  Most templa
 Edit Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-New Action Trigger Templates
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Clone Action Trigger Templates
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Other info
+~~~~~~~~~~
+
+Events that use opt_in_setting:  circ.default_overdue_notices_enabled
+
+New/expiring accounts, predue/overdue/marked lost, new due date by emergency
+closing, exceeding fine limit.
+
+They use the following hooks:
+
+'autorenewal',
+'checkout.due',
+'checkout.due.emergency_closing',
+'lost',
+'lost.auto',
+'lost.found',
+'penalty.PATRON_EXCEEDS_FINES'
+au.created,
+au.expired
+-------------------------------
+Emailing checkout receipt uses
+opt_in_setting: circ.send_email_checkout_receipts
+------------------------------------
+Events related to holds (including expiring holdshelf), booking reservation,
+checkin with missing pieces, recall do not use opt_in_setting.
 
 
 

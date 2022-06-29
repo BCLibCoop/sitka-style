@@ -1,0 +1,26 @@
+Bootstrap Settings
+------------------
+
+These are all from the individual opac_config.yml skin library records.
+
+.Settings
+
+* If you want the text in the header section to be black add the line below to the config section.
+  - header_has_light_background: true
+  - see BVIC for example
+* If you want the text in the footer section to be black add the line below to the config section.
+  - footer_has_light_background: true
+  - see BTA for example
+* The facet colour is controlled by the facets_back setting in the colors: section.
+* The header colour is controlled by the header_primary setting in the colors: section.
+* The header fade colour is controlled by the header_primary_fade setting in the colors: section.
+* The footer colour is controlled by the footer_primary setting in the colors: section.
+* The footer fade colour is controlled by the footer_primary_fade setting in the colors: section.
+* Lots of button type settings are controlled by the button_confirm setting in the colors: section.
+  - example, My Account login button, Submit button, Search Filters bars, Back To Results button
+
+NOTE: The extra bib detail horizontal bars are still controlled by the extras_bar_bg setting in the colors: section.
+
+NOTE: The Search button is still controlled by the button_bg setting in the colors: section.
+
+NOTE: A lot of the other changes, like bolding the footer and header text are system wide and exist in the style.css.tt2 record in /srv/openils/var/templates-bootstrap/opac/css
