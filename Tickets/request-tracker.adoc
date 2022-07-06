@@ -1,8 +1,6 @@
 Request Tracker
 ---------------
 
-https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:request_tracker [Request Tracker info from Wiki]
-
 Settings
 ~~~~~~~~
 
@@ -18,6 +16,68 @@ image::images/Intro/signature.png [Signature]
 Home Page
 ~~~~~~~~~
 
+Co-op staff can configure RT as needed. Ask for help or share ideas for dashboards etc.
+
 *RT at a glance: body*
 
 *RT at a glance: sidebar*
+
+
+General RT Guidelines
+~~~~~~~~~~~~~~~~~~~~~
+
+In addition to RT's auto-reply we strive to respond to sites within 24 hours of receiving a ticket (even if only to say we're working on it).
+
+* Use Reply to respond to all Requestors. Replies are visible to sites on RT self serve site, and all requestors receive Replies automatically via email.
+
+* Use Comment to correspond with Co-op staff. Comments are not visible to sites on RT self serve site, and requestors do not receive comments unless intentionally ccd.
+
+Custom fields
+^^^^^^^^^^^^^
+
+In the main queues there are a variety of custom fields. These can vary by queue.
+
+* Tags - what the ticket is about. These are customizable by queue.
+* Library - the requesting library. Currently global, shared by all queues.
+* Other custom fields in use are for tracking things like LP bugs links, Bibliocommons tickets links, servers affected, etc.
+* Tickets should have one or more values assigned to each field (ctrl+click for multiple values) to improve searching and help track support trends.
+
+.Adding to custom field menus when a new library joins or a new tag is required,
+. Log into RT and click 'Configuration' from the top menu bar
+. Select 'Custom Fields', then choose 'Library' or 'Tags' (under 'Custom fields for tickets')
+. Scroll to the bottom of the page to add a new value
+
+Assigning RT priorities
+^^^^^^^^^^^^^^^^^^^^^^^
+
+*Urgent*
+Fatal failure across services or one entire service. Constitutes emergency support if after hours.
+
+If - All sites affected
+If - Data loss or severe data corruption
+If - Co-op Servers down e.g. in Sitka core services stopped like circ, search, communication between servers that comprise Evergreen broken, or, for e.g, in LibPress all websites are down.
+If - Restart required for core services to be restored.
+
+*High*
+Due to Failure of service or current prioritization of outcome (e.g. new service, new member expectations). May constitute emergency support if after hours.
+
+If- Tickets from a new site that are affecting staff workflows
+If - tickets are a result of roll out of new version or new service /feature/function.
+If - Majority of sites affected (emergency support may have to kick in)
+If - Core services affected (emergency support may have to kick in)
+If - Service restart required for core services to be restored (emergency support should kick in)
+Examples: servers offline, email failure, holds targetter failure, Evergreen reporter offline, upgrade related patches or roll ups.
+
+*Medium*
+If- Affects one or more site
+If - Costs site time/money, affects core public service workflows, or affects communications with their patrons (i.e. overdues not running, problem with fine generator, web site forms not working, etc.)
+Is a contractual obligation on Co-op's part – i.e. required for Co-op services to perform as per contracts and policy. e.g. MOU/SMA, is not fatal, but needs attention.
+Failure to provide a required outcome of the service, but not fatal.
+Examples: new site waiting for overdues to be set up, new site’s fines not charging correctly, , OPAC display problems affecting most sites, EZ Proxy changes, for LibPress, basic website functionality affected or fixing menu links.
+
+*Low*
+If- “How to” questions
+If -Can be resolved by information, or a scheduled chron job ,or by development,or a workaround.
+If -Things that need to be done, but don’t affect daily operations at all
+If- Affects one or few sites only, nice if it worked.
+Examples: cataloguing questions, policy questions, functionality questions, bug reporting, feature requests,
