@@ -1,7 +1,7 @@
 Library Staff accounts
 ----------------------
 
-In Evergreen library staff accounts are the same as patron accounts with two differences.
+Library staff accounts are the same as patron accounts with two differences.
 
 . Staff accounts use Main (Profile) Permissions Groups with permissions that give access to Evergreen’s staff functions.
 . Staff accounts have working locations which tell Evergreen which libraries or branches an account can be used at.
