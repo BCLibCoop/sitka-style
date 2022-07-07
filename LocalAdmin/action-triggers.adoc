@@ -63,7 +63,10 @@ Events related to holds (including expiring holdshelf), booking reservation,
 checkin with missing pieces, recall do not use opt_in_setting.
 
 
-
+When setting up a new auto to lost trigger or renabling an inactive one you must have  
+Max Event Validity Delay and Retention Interval blank initially.  Once the trigger has run
+overnight you need to add values to these fields.  (If these fields are not blank on 
+the initial run items that are past the overdue threshold will not be set to lost.)
 
 
 
