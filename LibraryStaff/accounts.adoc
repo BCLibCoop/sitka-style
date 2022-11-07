@@ -72,6 +72,20 @@ Grant Reporter Permissions
 New SIP Account
 ~~~~~~~~~~~~~~~
 
+.New SIP account
+. Ticket is received in Sitka Support Queue
+. Check the wiki https://wiki.libraries.coop/doku.php?id=sitka:sip2_users [SIP] to determine if this is for an approved vendor/product
+.. If not - Assign the ticket to Christine
+.. If yes - Create a SIP-Client account in EG.
+
+.Create a SIP-Client account in EG
+. Log in to Evergreen using a workstation registered to the requestors home library
+. *Circulation* -> *Register Patron*
+.. create a user with profile "SIP Client" and barcode/username of the form sip2-shortname-service.
+.. Make the password something secure.
+. Ask Jeff to add the new account's username and password to SIP server config via ansible.
+.. Add comment to the ticket with a CC to Jeff.
+. The next day, send the connection info to the library.
 
 Evergreen Self Check
 ~~~~~~~~~~~~~~~~~~~~
