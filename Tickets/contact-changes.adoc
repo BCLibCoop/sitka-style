@@ -1,0 +1,15 @@
+Tickets for contact Changes
+---------------------------
+
+Email changes
+
+. Library staff
+.. Evergreen staff account
+.. Co-op Web
+
+. Library Main Email
+.. Co-op Web
+.. RT
+.. LibPress
+.. Evergreen Server Admin -> Organizational Units
+.. Evergreen Library Settings Editor -> Sending email address for patron notices
