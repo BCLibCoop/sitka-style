@@ -78,7 +78,7 @@ New SIP Account
 .. If not - Assign the ticket to Christine
 .. If yes - Create a SIP-Client account in EG.
 
-.Create a SIP-Client account in EG
+.Create a SIP-Client account
 . Log in to Evergreen using a workstation registered to the requestors home library
 . *Circulation* -> *Register Patron*
 .. create a user with profile "SIP Client" and barcode/username of the form sip2-shortname-service.
@@ -91,3 +91,10 @@ New SIP Account
 
 Evergreen Self Check
 ~~~~~~~~~~~~~~~~~~~~
+
+.Create an Evergreen Self Check account
+. Log in to Evergreen using a workstation registered to the requestors home library
+. *Circulation* -> *Register Patron*
+.. create a user with profile "Self Check Login" and barcode/username of the form shortnameselfcheck.
+.. Use a password generator to create a secure 16 digit alphanumeric password.
+. Record the account information on the wiki https://wiki.libraries.coop/doku.php?id=sitka:support:self_check
