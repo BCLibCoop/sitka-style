@@ -13,3 +13,4 @@ Email changes
 .. LibPress
 .. Evergreen Server Admin -> Organizational Units
 .. Evergreen Library Settings Editor -> Sending email address for patron notices
+.. Evergreen Paper Overdue notices
