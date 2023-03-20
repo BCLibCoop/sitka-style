@@ -14,4 +14,11 @@ Add Hold policies
 Suspend ILC Holds
 ~~~~~~~~~~~~~~~~~
 
-https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:suspend_ilc_policy [Suspend ILC Hold]
+.Stop inbound ILC hold
+. Set Hold Hard Boundary to 3 for the request library on Library Settings Editor
+
+.Stop outbound ILC hold
+* Choose one of the following based on the setup of the library's existing hold policies:
+** If the library does not apply age-based hold protection, add a hold policy with pickup_lib=BC_ILC, owning_lib=circ_lib= individual library, circ_modifier is null, holdable is false. Deactivate it to reopen outbound ILC hold.
+** If the library applies age-based hold protection on all items, remove the value in Item Age < field (example: policy id 633 with pickup_lib=BC_ILC, owning_lib=circ_lib=BTE, circ_modifier is null). Keep the value in the RT ticket. Add it back to reopen ILC outbound hold.
+** If there is an inactive hold policy blocking ILC holds from #1, activate it.
