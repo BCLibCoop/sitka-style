@@ -1,10 +1,9 @@
 Action Triggers
 ---------------
 
+http://docs.libraries.coop/sitka/admin-notice.html [Patron Notifications]
+
 https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:name_trigger [Action Trigger info from Wiki]
-
-
-This section discusses the initial setup and refinement of action trigger templates.
 
 Action Trigger templates are used in various system processes
 
@@ -27,29 +26,27 @@ Some templates are set at the Sitka level and cannot be customized.  Most templa
 * Hold Notifications
 * Patron Account Notifications
 
-
-
 Edit Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.Edit templates
-. Administration -> Local Administration -> Notification/Action Triggers
-. Filter to find an existing template to copy
-. Check the box -> Actions -> Edit Selected
-. Modify template as needed
-. Click *Save*
+.Edit existing templates
+. Go to *Administration -> Local Administration -> Notification/Action Triggers.*
+. Filter to find the template that needs to be updated.
+. Select the template and click *Actions -> Edit Selected.*
+. Modify the template as needed.	
+. Click *Save.*
 
 Clone Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .Clone existing templates
-. Administration -> Local Administration -> Notification/Action Triggers
+. Go to *Administration -> Local Administration -> Notification/Action Triggers.*
 . Filter to find an existing template to copy
-. Check the box -> Actions -> Clone Selected
-. An Alert will appear *Clone event definition environment as well?* -> Click *Confirm*
-. Enter Owning Library
-. Add Library Short Code to Name
-. Modify template as needed
+. Select the template and click *Actions -> Clone Selected.*
+. An alert will appear *Clone event definition environment as well?* -> Click *Confirm*
+. Enter *Owning Library.*
+. Add the library short code to the *Name* field.
+. Modify the template as needed.
 . Click *Save*
 
 Other info
@@ -57,8 +54,10 @@ Other info
 
 Events that use opt_in_setting:  circ.default_overdue_notices_enabled
 
-New/expiring accounts, predue/overdue/marked lost, new due date by emergency
-closing, exceeding fine limit.
+* New/expiring accounts
+* Predue/overdue/marked lost
+* New due date by emergency closing
+* Fine limit exceeded.
 
 They use the following hooks:
 
@@ -71,15 +70,17 @@ They use the following hooks:
 'penalty.PATRON_EXCEEDS_FINES'
 au.created,
 au.expired
+
 -------------------------------
 Emailing checkout receipt uses
 opt_in_setting: circ.send_email_checkout_receipts
 ------------------------------------
-Events related to holds (including expiring holdshelf), booking reservation,
-checkin with missing pieces, recall do not use opt_in_setting.
+
+NOTE: Events related to holds (including expiring holdshelf), booking reservation,
+checkin with missing pieces, recall *do not* use the opt_in_setting.
 
 
-When setting up a new auto to lost trigger or renabling an inactive one you must have
+NOTE: When setting up a new auto to lost trigger or renabling an inactive one you must have
 Max Event Validity Delay and Retention Interval blank initially.  Once the trigger has run
 overnight you need to add values to these fields.  (If these fields are not blank on
 the initial run items that are past the overdue threshold will not be set to lost.)
@@ -87,4 +88,4 @@ the initial run items that are past the overdue threshold will not be set to los
 
 
 
-NOTE - http://docs.libraries.coop/sitka/admin-notice.html [Patron Notifications]
+
