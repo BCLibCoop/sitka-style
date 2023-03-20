@@ -1,8 +1,52 @@
 Hard Due Date
 -------------
 
-Update Hard Due Update
-~~~~~~~~~~~~~~~~~~~~~~
+Academic libraries may wish to use hard due dates to truncate due dates at the end of a semester or allow particular material to go out for an entire semester. Library staff do not have permissions to add or edit hard due date rules. See http://docs.libraries.coop/sitka/_hard_due_date.html
+
+Update Hard Due Date
+~~~~~~~~~~~~~~~~~~~~
+
+When updating an existing hard due date rule you must update the ceiling date display and add a new hard due date value
+
+.Edit Ceiling Date
+. Go to *Administration -> Server Administration -> Hard Due Date Changes.*
+. Select the rule you want to edit and click *Actions -> Edit Selected.*
+. Enter the *Current Ceiling Date.*
+. Click *Save.*
+
+.Add New Hard Due Date Value
+. Click *Values*
+. Click *New Hard Due Date Values* 
+. Enter the *Active Date*
+. Enter the *Ceiling Date*
+. Click *Save*
+
+NOTE: Libraries can submit all the hard due dates for the year.  Use the active/ceiling date to enter all the dates for fall, winter, and summer terms.
+
 
 New Hard Due Date
 ~~~~~~~~~~~~~~~~~
+
+To setup a new hard due date you must create the new hard due date and then link it to the applicable circulation policies. 
+
+.New Hard Due Date
+. Go to *Administration -> Server Administration -> Hard Due Date Changes.*
+. Click *New Hard Due Date.* 
+. Enter a *Name*
+. Enter the *Owner*
+. Enter the *Ceiling Date*
+. Check the box for *Always Use?* if the rule should apply all the time.
+.. Leave this unchecked if the rule only applies when the regular due date would fall after the hard due date.
+. Click *Save*
+
+.Add New Hard Due Date Value
+. Click *Values.*
+. Click *New Hard Due Date Values.* 
+. Enter the *Active Date*
+. Enter the *Ceiling Date*
+. Click *Save*
+
+.Add Hard Due Date to Circulation Policies
+. Go to *Administration -> Local Administration -> Circulation Policies*
+. Add the Hard Due Date rule to the policies it should apply to
+. See http://asciidoc.libraries.coop/sitka-style-master/html/_circulation_policies.html#_edit_circulation_policies
