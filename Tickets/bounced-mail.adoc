@@ -49,13 +49,11 @@ Please let us know if you have any questions.
 
 
 
-====Evergreen Notification====
-
-  * Edit Subject Line
-    * Add library short code to the beginning
-    * ex. BSQ - Undelivered Mail Returned to Sender
-  * Add Library as Requestor
-  * Email the patrons library to follow-up
+.Evergreen Notification
+. Edit Subject Line
+.. Add library short code to the beginning ex. BSQ - Undelivered Mail Returned to Sender
+. Add Library as Requestor
+. Email the patrons library to follow-up
 
 Hello
 
@@ -79,23 +77,19 @@ It is good practice to set up a generic account, like info@nameofyourlibrary.ca,
 
 Please let me know if you have any questions.
 
-====Website====
+.Website
+. Follow-up with the appropriate Group (NNELS, Licensing, LibPress)
 
-Follow-up with the appropriate Group (NNELS, Licensing, LibPress)
+.Auto-Reply / Out of Office
+. Read the message if regular vacation - Just delete the ticket
+. If extended Out of Office (Parental Leave / Sabbatical) - Remove from Email Group
 
-====Auto-Reply / Out of Office====
-
-Read the message if regular vacation - Just delete the ticket
-If extended Out of Office (Parental Leave / Sabbatical) - Remove from Email Group
-
-====Password Resets====
-
-  * Edit Subject Line
-    * Add library short code to the beginning
-    * Add Password to the end
-    * ex. BSQ - Undelivered Mail Returned to Sender - Password
-  * Add Library as Requestor
-  * Email the patrons library to follow-up
+.Password Resets
+. Edit Subject Line
+.. Add library short code to the beginning
+.. Add Password to the end ex. BSQ - Undelivered Mail Returned to Sender - Password
+. Add Library as Requestor
+. Email the patrons library to follow-up
 
 Email the patrons library to follow-up
 
