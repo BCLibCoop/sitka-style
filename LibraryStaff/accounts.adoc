@@ -13,17 +13,17 @@ NOTE: You must log in using a workstation registered to the requestors home libr
 Grant Local System Administrator Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The Local System Administrator permission group can only be assigned by Sitka Staff. Libraries may create an account using any permission group and then submit a request to Support to have the account updated to local system administrator.
+The Local System Administrator permission group can only be assigned by Sitka Staff. Libraries may create an account using any permission group and then submit a support request for local system administrator permissions.
 
 .process
-. Log in using a workstation registered to the requestors home library
-. *Circulation* -> *Check Out*
-. Retrieve account using account barcode (or Patron Search)
-. Check the *User Permission Editor* to verify the account has a working location
-. Check to make sure the account has an email address
-. Edit -> Change *Main (Profile) Permission Group* = Local System administrator
-.. Make sure to choose the correct group by library type (Public, Post-Sec, Special or Government)
-. Click *Save*
+. Log in using a workstation registered to the requestors home library.
+. Go to *Circulation -> Check Out.*
+. Retrieve account using account barcode (or Patron Search).
+. Check the *User Permission Editor* to verify the account has a working location.
+. Check to make sure the account has an email address.
+. Edit -> Change *Main (Profile) Permission Group* = Local System administrator.
+.. Make sure to choose the correct group by library type (Public, Post-Sec, Special or Government).
+. Click *Save.*
 
 Renew/Edit LSA Account
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -31,11 +31,11 @@ Renew/Edit LSA Account
 The Local System Administrator permission group can only be edited by Sitka Staff
 
 .process
-. Log in using a workstation registered to the requestors home library
-. *Circulation* -> *Check Out*
-. Retrieve account using account barcode (or Patron Search)
-. Edit -> Make requested changes or click *Update Expire Date*
-. Click *Save*
+. Log in using a workstation registered to the requestors home library.
+. Go to *Circulation -> Check Out.*
+. Retrieve account using account barcode (or Patron Search).
+. Edit -> Make requested changes or click *Update Expire Date.*
+. Click *Save.*
 
 Grant Reporter Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -51,7 +51,7 @@ Grant Reporter Permissions
 .Full Reporter Permissions
 . Ticket is received in Sitka Support Queue with subject = *New Full Reporter Privacy Waiver Submission*
 . Log in to Evergreen using a workstation registered to the requestors home library
-. *Circulation* -> *Check Out*
+. Go to *Circulation -> Check Out*
 . Retrieve account using account barcode (or Patron Search)
 . Edit -> Verify the account contains the following: First Name, Last Name, Email, Phone Number, & Address.
 .. Incomplete staff accounts will not be granted reporter permissions.
@@ -80,7 +80,7 @@ New SIP Account
 
 .Create a SIP-Client account
 . Log in to Evergreen using a workstation registered to the requestors home library
-. *Circulation* -> *Register Patron*
+. Go to *Circulation -> Register Patron*
 .. create a user with profile "SIP Client" and barcode/username of the form sip2-shortname-service.
 .. Use a password generator to create a secure 16 digit alphanumeric password.
 . Record the account information on the wiki SIP2 User page
@@ -94,7 +94,7 @@ Evergreen Self Check
 
 .Create an Evergreen Self Check account
 . Log in to Evergreen using a workstation registered to the requestors home library
-. *Circulation* -> *Register Patron*
+. Go to *Circulation -> Register Patron*
 .. create a user with profile "Self Check Login" and barcode/username of the form shortnameselfcheck.
 .. Use a password generator to create a secure 16 digit alphanumeric password.
 . Record the account information on the wiki https://wiki.libraries.coop/doku.php?id=sitka:support:self_check
