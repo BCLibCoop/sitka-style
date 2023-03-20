@@ -30,10 +30,10 @@ Must have a Launchpad Bug #
 Must have a Priority
 Must have a Bug Tag
 
-Waiting for upstream fix = a bug waiting for an upstream fix
-Community fix available = a bug with a community fix available for testing (Flag for Bug Squashing week etc)
-Test in 3.next = fix committed upstream - needs to be tested on Sitka’s Evergreen test server
-Fixed in 3.next = tested and confirmed fixed on Sitka’s Evergreen test server
+* Waiting for upstream fix = a bug waiting for an upstream fix
+* Community fix available = a bug with a community fix available for testing (Flag for Bug Squashing week etc)
+* Test in 3.next = fix committed upstream - needs to be tested on Sitka’s Evergreen test server
+* Fixed in 3.next = tested and confirmed fixed on Sitka’s Evergreen test server
 
 
-There should be one ticket for each bug - duplicate tickets (other tickets re this issue should be linked & resolved with resolution = upstream)
+NOTE: There should only be one ticket for each bug - duplicate tickets (other tickets regarding this issue should be linked & resolved with resolution = upstream)
