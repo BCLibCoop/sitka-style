@@ -42,6 +42,8 @@ include::LocalAdmin/circulation-policies.adoc[]
 
 include::LocalAdmin/hold-policies.adoc[]
 
+include::ServerAdmin/hard-due-dates.adoc[]
+
 Creating Support Resources
 ==========================
 
