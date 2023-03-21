@@ -4,6 +4,9 @@ Supporting Sitka's Evergreen
 Sitka Staff account
 ~~~~~~~~~~~~~~~~~~~
 
+Sitka Staff permissions are the highest level permissions and can do almost anything in the staff client for any library.
+
+NOTE: With great power comes great responsibility. 
 
 Logging Into Evergreen
 ~~~~~~~~~~~~~~~~~~~~~~
