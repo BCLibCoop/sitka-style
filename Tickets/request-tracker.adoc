@@ -1,5 +1,6 @@
 Request Tracker
 ---------------
+"RT" stands for "Request tracker". It's an open-source tool that the Co-op uses to track and manage communications.
 
 Settings
 ~~~~~~~~
@@ -31,6 +32,14 @@ In addition to RT's auto-reply we strive to respond to sites within 24 hours of 
 * Use Reply to respond to all Requestors. Replies are visible to sites on RT self serve site, and all requestors receive Replies automatically via email.
 
 * Use Comment to correspond with Co-op staff. Comments are not visible to sites on RT self serve site, and requestors do not receive comments unless intentionally ccd.
+
+Comment function is for internal communication. You can post a comment and pass the ticket to another owner, or post a comment and keep ownership. Usually, if you require someone to do an action on the ticket you should pass the ownership to them.
+
+.To add a Comment:
+. Click the Actions drop menu on the top left navigational menu for the ticket.
+. Select Comment
+. Enter the comment into the comment field, and cc the person you want the comment to go to (this is not needed, but will ensure the comment goes into their inbox and can help guarantee they recieve it.)
+. Change the owner in the Ticket and Transactions area to the person you need to pass the ticket to
 
 Custom fields
 ^^^^^^^^^^^^^
@@ -81,3 +90,36 @@ If -Can be resolved by information, or a scheduled chron job ,or by development,
 If -Things that need to be done, but don’t affect daily operations at all
 If- Affects one or few sites only, nice if it worked.
 Examples: cataloguing questions, policy questions, functionality questions, bug reporting, feature requests,
+
+Using My Reminders in RT
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+Each RT ticket has a Reminders section where you can type in reminders for yourself if you want. These Reminders will appear on your RT homepage (My Reminders area) so you can easily view and monitor them. It can be used like a checklist of to-do's.
+
+. When you open a ticket there is a section for Reminders near the top right hand side of the ticket.
+. In the Subject box type in the Reminder you want to set
+. When you select the Due box it opens a drop box calendar you can navigate and pick the date the reminder is due. Or you can manually type the due date
+. When you are done simple select Save and the Reminder will appear in the ticket. If you RT homepage is set up to include Reminders it will appear there as well.
+. When you are done that task simply select the Reminder in the ticket, and hit Save and the Reminder will be resolved.
+. You can also select the Reminder from the My Reminder area of your RT homepage. This will take you to a new window for that Reminder, and the process to resolve is the same as above.
+
+Bookmarking tickets
+^^^^^^^^^^^^^^^^^^^
+Sometimes you may want to keep track of a ticket that you do not own. You can bookmark a ticket by opening it up and clicking on the star icon (it will turn yellow) in the top right menu. These bookmarked tickets should appear on your RT homepage under My Bookmarked Tickets. When you don’t want to track the ticket anymore, simple reselect the star icon and it will turn back to grey.
+
+How to Create a Ticket in RT
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+On your RT homepage, at the top right of the page, in the blue bar, there is a darker blue New ticket in button don’t select the button. Beside this button is a white drop down menu.
+Open the dropdown menu and select the type of ticket you want to create.
+
+There are queues:
+Sitka Support: 
+Testing:
+
+In the Subject line of the ticket enter the name of the book or title for the ticket you are creating.
+In the Basics area on the right, set the owner to the appropriate person.
+In the Custom Fields area on the right, you only need to set these fields (using the above instructions): 
+Switch to the Details button at the top right corner and set the following fields:
+Set the Priority (using the above instructions).
+Once all is good, click Create. The ticket should appear in the appropriate queue.
