@@ -1,0 +1,10 @@
+Tickets for emergency closings
+------------------------------
+
+If a library needs to close for an emergency the following should be done.
+
+.Use the Closed Dates Editor in Sitka's Evergreen to create an emergency closure period
+.. https://docs.libraries.coop/sitka/_closed_dates_editor.html#_emergency_closing
+.Review and adjust hold policies (local and ILC)
+.Ask Mark or Tina to add a banner to the library's OPAC.
+.Advise the library to update their website (Include Libpress if they have a Libpress site).
