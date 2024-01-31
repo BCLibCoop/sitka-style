@@ -76,7 +76,72 @@ NOTE: Emailing checkout receipt uses opt_in_setting: 'circ.send_email_checkout_r
 NOTE: Events related to holds (including expiring holdshelf), booking reservation,
 checkin with missing pieces, recall *do not* use the opt_in_setting.
 
-NOTE: When setting up a new auto to lost trigger or renabling an inactive one you must have
-Max Event Validity Delay and Retention Interval blank initially.  Once the trigger has run
-overnight you need to add values to these fields.  (If these fields are not blank on
-the initial run items that are past the overdue threshold will not be set to lost.)
+Auto to Lost Triggers
+~~~~~~~~~~~~~~~~~~~~~
+
+The auto to lost trigger and associated email notification must be set up in a very specific way.
+
+Setting Up the Email Notification
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+. Go to *Administration -> Local Administration -> Notification/Action Triggers.*
+. Filter to find an existing template to copy
+. Select the template and click *Actions -> Clone Selected.*
+. An alert will appear *Clone event definition environment as well?* -> Click *Confirm*
+. Enter *Owning Library.*
+. Add the library short code to the *Name* field.
+. Set Enabled to be un-checked.
+. Modify the template as needed, make sure the days overdue is correct for what the library wants.
+. Click *Save*
+
+
+Setting Up the Auto to Lost Trigger
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+This action trigger will not work properly if cloned.
+
+. Go to *Administration -> Local Administration -> Notification/Action Triggers.*
+. Click *New Event Definition*.
+. Enter the following information:
+.. Owning Library: LIBRARYCODE
+.. Name: LIBRARYCODE XX Day Overdue Mark Lost
+.. Hook: checkout.due
+.. Enabled: leave un-checked
+.. Processing Delay: XX days
+.. Processing Delay Context Field: Due Date
+.. Reactor: MarkItemLost
+.. Validator: CircIsOverdue
+.. Max Event Validity Delay: You MUST leave this field blank
+.. Retention Interval: you MUST leave this field blank
+.. Context Bib Path: target_copy.call_number.record
+.. Context Item Path: target_copy
+.. Context Library Path: circ_lib
+.. Context User Path: usr
+. Click *Save*.
+
+
+Turning on Auto to Lost
+^^^^^^^^^^^^^^^^^^^^^^^
+
+When auto to lost is turned on for the very first time it will run overnight and set everything that is past the overdue threshold 
+to lost. This is contingent on there being no value set for _Max Event Validity Delay_ or _Retention Interval_; if values are
+present not all long overdue items will be set to lost.
+
+. Confirm that everything is correct for both the email notification and the auto to lost trigger.
+. Check the box for Enabled in the email notification.
+. Click *Save*.
+. Check the box for Enabled in the auto to lost.
+. Click *Save*.
+. The next day, open the auto to lost trigger.
+. Enter the following information:
+.. Max Event Validity Delay: Enter a value between the Processing Delay and Processing Delay + Retention 
+Interval
+.. Retention Interval: 3 mons
+. Click *Save*.
+
+[CAUTION]
+=========
+There is a bug preventing values from being removed from the _Max Event Validity Delay_ or _Retention Interval_ fields in the
+staff client.  This means that inactive auto to lost triggers can't just be turned back on in the staff client; they should
+be referred to Tier2 Support.
+=========
