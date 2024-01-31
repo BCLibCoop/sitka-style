@@ -111,6 +111,7 @@ This action trigger will not work properly if cloned.
 .. Processing Delay Context Field: Due Date
 .. Reactor: MarkItemLost
 .. Validator: CircIsOverdue
+.. Granularity: daily
 .. Max Event Validity Delay: You MUST leave this field blank
 .. Retention Interval: you MUST leave this field blank
 .. Context Bib Path: target_copy.call_number.record
