@@ -17,3 +17,6 @@ Add Circulation policies
 * Circulation Recurring Fine Rules
 * Circulation Max Fine Rules
 * Hard Due Dates
+
+Auto-Renewal
+~~~~~~~~~~~~

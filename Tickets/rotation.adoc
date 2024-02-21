@@ -1,0 +1,13 @@
+Rotation
+--------
+
+.Update Circulation Library
+. Cataloguing -> Item Buckets
+. Click Buckets -> Shared Buckets
+. Enter Bucket #
+. Do a quick scan to make sure everything looks ok
+. Select all
+. Actions -> Edit Selected Items
+. Change Circulation Library
+. Apply all save and exit
+. refresh bucket to verify change has been made
