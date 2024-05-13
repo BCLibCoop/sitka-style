@@ -1,0 +1,8 @@
+Emergency Closing Procedures
+----------------------------
+
+. Enter Emergency Closing
+. Disable holds (ILC & local)
+. OPAC banner
+. Website banner
+. Renew expiring patrons

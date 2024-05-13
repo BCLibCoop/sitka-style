@@ -44,6 +44,8 @@ include::LocalAdmin/hold-policies.adoc[]
 
 include::ServerAdmin/hard-due-dates.adoc[]
 
+include::LocalAdmin/emergency-closing.adoc[]
+
 Creating Support Resources
 ==========================
 

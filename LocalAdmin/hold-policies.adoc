@@ -11,6 +11,9 @@ Add Hold policies
 ~~~~~~~~~~~~~~~~~
 
 
+Note
+.Set home library to individual library and not Sitka for any library that doesn't do reciprocal borrowing 
+
 Suspend ILC Holds
 ~~~~~~~~~~~~~~~~~
 
