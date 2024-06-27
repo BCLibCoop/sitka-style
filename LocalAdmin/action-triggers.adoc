@@ -108,7 +108,7 @@ This action trigger will not work properly if cloned.
 .. Hook: checkout.due
 .. Enabled: leave un-checked
 .. Processing Delay: XX days
-.. Processing Delay Context Field: Due Date
+.. Processing Delay Context Field: due_date
 .. Reactor: MarkItemLost
 .. Validator: CircIsOverdue
 .. Granularity: daily
