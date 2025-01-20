@@ -23,6 +23,10 @@ include::Tickets/sitka-bugs.adoc[]
 
 include::Tickets/contact-changes.adoc[]
 
+Phone Support
+=============
+
+include::Helpdesk/phones.adoc[]
 
 Tier 1 Support
 ==============
@@ -57,3 +61,8 @@ Public Catalogue
 include::publiccatalogue/bootstrap-settings.adoc[]
 
 include::publiccatalogue/login-customizations.adoc[]
+
+Unplanned Downtime
+==================
+
+include::Helpdesk/unplanneddowntime.adoc[]

@@ -98,7 +98,7 @@ Setting Up the Email Notification
 Setting Up the Auto to Lost Trigger
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This action trigger will not work properly if cloned.
+Clone the Sitka Action Trigger
 
 . Go to *Administration -> Local Administration -> Notification/Action Triggers.*
 . Click *New Event Definition*.

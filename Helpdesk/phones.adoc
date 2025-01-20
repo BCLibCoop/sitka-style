@@ -1,0 +1,73 @@
+Phone Support
+-------------
+
+Phone #: 1-888-848-9250, call routing and voicemail boxes for Sitka, LibPress, Licensing, NNELS, Co-op Web and Emergency support.
+
+Phone Support hours: Monday to Friday, 9am–4pm PT except BC statutory holidays. After hours emergency support available via phone 7 days per week.
+
+Queues
+~~~~~~
+
+1 - Sitka
+2 - LibPress
+3 - Licensing
+4 - Co-op Web
+5 - NNELS
+9 - Emergency Support
+
+Log in / Log out instructions
+
+.use button for VOIP
+. Dial 11
+. Enter queue # 11
+. Enter password
+
+You must log in to each queue individually everyday. You may find that sometimes the login persists but it is not reliable. Please log in everyday.
+
+Answering Calls
+~~~~~~~~~~~~~~~
+
+. You are expected to respond professionally and promptly by providing needed answers, documentation, and troubleshooting tips.
+. If you get reports that the system is down you must notify the rest of the Support team via Co-op Support chat in Teams as soon as possible.
+. Thorough and consistent reporting makes it easier to document request history. Please create a ticket for every call you receive.
+. If you’re going to be AFK for an extended period please arrange with your backup person to cover phones. 
+
+Sitka
+~~~~~
+
+Providing needed answers, documentation, and troubleshooting tips
+
+.Create a ticket in Sitka Support queue
+. Contact Information: Please include the caller's name, their library, and an email address where we can contact them.
+. Descriptive subject. To make tickets easier to identify in RT please provide as descriptive a subject as possible.
+. What, where, when, how? Be specific about what they were doing in Evergreen, what results were obtained versus what was expected, and the steps required to reproduce the problem. If you cannot reproduce the problem exactly please describe the circumstances in which it occurred and the symptoms observed, including relevant patron and item barcodes.
+. Include error messages. If the problem caused any OPAC or staff client error messages please copy and paste error text or attach screenshots when possible. See the section called “Submitting Files to Support” for guidelines.
+. Include example barcodes and IDs. A problem in circulation? Make sure you include the patron and/or item barcodes that were in use when the problem occurred. Cataloguing issues? Make sure you include the item barcode and/or the record ISBN/ISSN or record ID where the problem occurred.
+. Troubleshooting. Include the steps you have already taken to try and resolve the problem.
+. Do NOT include passwords. Co-op Support should never ask for patron or staff passwords.
+
+Libpress
+~~~~~~~~
+
+Providing needed answers, documentation, and troubleshooting tips
+
+.Create a ticket in Libpress queue
+
+
+Licensing
+~~~~~~~~~
+
+
+
+Co-op Web
+~~~~~~~~~
+
+NNELS
+~~~~~
+
+Usually these calls are from patrons
+. advise them to contact their local library 
+. Advise them they can request a NNELS account  
+.. https://nnels.ca/organizations/search 
+. Take their info and create a ticket in NNELS Queue 
+.. Who, what, where, when, why, how? 

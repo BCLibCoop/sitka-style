@@ -1,0 +1,15 @@
+Unplanned Downtime
+==================
+
+https://wiki.libraries.coop/doku.php?id=cooperative:communications:emergency
+
+
+.In case of single or multiple service outage lasting longer than 15 minutes
+  . Notify all staff in Teams & IRC
+  . Create a primary ticket in RT
+  . Create a ticket for any calls received
+  . Link all related tickets to primary ticket
+  . Draft a comm to post in Sitka group / Update Splash Page / Update Support Service page
+  . Appoint someone to post updates regularly (every 30 minutes if serious outage) .
+  . Post an all-clear to any communications channels employed. All-clear must be proclaimed by one of: Scott, Sharon, Tami, Kevin M.
+  . Record Unplanned downtime here - https://wiki.libraries.coop/doku.php?id=sitka:unscheduled_downtime
