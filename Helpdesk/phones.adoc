@@ -52,20 +52,28 @@ Libpress
 Providing needed answers, documentation, and troubleshooting tips
 
 .Create a ticket in Libpress queue
+. Contact Information: Please include the caller's name, their library, and an email address where we can contact them.
+. Descriptive subject. To make tickets easier to identify in RT please provide as descriptive a subject as possible.
 
 
 Licensing
 ~~~~~~~~~
 
-
+.Create a ticket in Libpress queue
+. Contact Information: Please include the caller's name, their library, and an email address where we can contact them.
+. Descriptive subject. To make tickets easier to identify in RT please provide as descriptive a subject as possible.
 
 Co-op Web
 ~~~~~~~~~
 
+.Create a ticket in Libpress queue
+. Contact Information: Please include the caller's name, their library, and an email address where we can contact them.
+. Descriptive subject. To make tickets easier to identify in RT please provide as descriptive a subject as possible.
+
 NNELS
 ~~~~~
 
-Usually these calls are from patrons
+.Usually these calls are from patrons
 . advise them to contact their local library 
 . Advise them they can request a NNELS account  
 .. https://nnels.ca/organizations/search 
