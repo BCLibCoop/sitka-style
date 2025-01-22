@@ -66,3 +66,8 @@ Unplanned Downtime
 ==================
 
 include::Helpdesk/unplanneddowntime.adoc[]
+
+Testing
+=======
+
+include::testing/testingguidelines.adoc[]

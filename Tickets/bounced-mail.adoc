@@ -9,6 +9,7 @@ Bounced Mail
 .. Out of Office = Ususally just delete, but read the message first, if it is an extended absence remove from mailing list
 .. Password Reset Request = Notify Library
 .. Co-op Website = Notify appropriate group
+.. Libpress Event = Usually just delete
 .. Other = we have outlined the most common instances of bounce mail here, other scenarios will need to be handled as they arise (document issue & resolution here if it is something that may happen again)a
 
 .Evergreen SMS
