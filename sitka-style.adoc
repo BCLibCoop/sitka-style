@@ -39,6 +39,11 @@ include::LocalAdmin/action-triggers.adoc[]
 
 include::LocalAdmin/permission-tree-display.adoc[]
 
+include::Tickets/known-issues.adoc[]
+
+include::Tickets/shared-collection-updates.adoc[]
+
+
 Tier 2 Support
 ==============
 
