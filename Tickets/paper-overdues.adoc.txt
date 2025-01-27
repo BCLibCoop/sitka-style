@@ -3,15 +3,10 @@ Paper-Overdues
 
 Evergreen can generate a PDF file of overdue notices which is then emailed to the library to be printed and distributed to patrons.
 
-These notices are created and emailed daily. An email with an empty PDF file means that there are no items for that day that meet the criteria to have a paper overdue notice generated. 
-
-If you do not receive the daily email with the PDF file please contact Co-op Support as this means that paper overdues are not generating as expected.
-
-Paper overdues can be generated at the following intervals 1, 2, 3, 4, 5, 6, 7, 8, 9 or 10 weeks after the item becomes due. 
-
-The intervals define when a second, third, or fourth, and so on, letter is sent out.
-
-Paper overdues at 1 and 2 weeks overdue are generated for only for patrons without email addresses in their account. From the 3 weeks onwards the notices are generated for all applicable patrons.
+. These notices are created and emailed daily. An email with an empty PDF file means that there are no items for that day that meet the criteria to have a paper overdue notice generated. 
+. Paper overdues can be generated at the following intervals 1, 2, 3, 4, 5, 6, 7, 8, 9 or 10 weeks after the item becomes due. 
+  .. The intervals define when a second, third, or fourth, and so on, letter is sent out.
+  .. Paper overdues at 1 and 2 weeks overdue are generated for only for patrons without email addresses in their account. From the 3 weeks onwards the notices are generated for all applicable patrons.
 
 The final paper overdue notice, at the interval of your choosing, can be set up as a billing notice and can include the item replacement cost and applicable processing fees. The replacement cost comes from the Price item attribute; if this attribute is blank the value set for the library setting Default Item Price is used instead. The processing fee uses the value from the library setting Lost Materials Processing Fee.
 

@@ -43,6 +43,8 @@ include::Tickets/known-issues.adoc[]
 
 include::Tickets/shared-collection-updates.adoc[]
 
+include::Tickets/paper-overdues.adoc[]
+
 
 Tier 2 Support
 ==============
