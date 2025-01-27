@@ -1,0 +1,14 @@
+Known Issues
+------------
+
+Acquisitions
+~~~~~~~~~~~~
+
+Permission Denied
+^^^^^^^^^^^^^^^^^
+
+A "Permission Denied" error when opening an Acquisitions invoice indicates that another libraries line item has been linked to the invoice in error. Co-op staff must detach the line item and save the invoice to fix the issue.
+
+.How to Fix a "Permission Denied" error
+. Click *Acquistions* -> *Invoices*
+. Search by Vendor Invoice ID
