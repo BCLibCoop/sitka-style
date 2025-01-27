@@ -37,14 +37,13 @@ include::LibraryStaff/accounts.adoc[]
 
 include::LocalAdmin/action-triggers.adoc[]
 
-include::LocalAdmin/permission-tree-display.adoc[]
-
-include::Tickets/known-issues.adoc[]
-
-include::Tickets/shared-collection-updates.adoc[]
+include::Tickets/known-errors.adoc[]
 
 include::Tickets/paper-overdues.adoc[]
 
+include::LocalAdmin/permission-tree-display.adoc[]
+
+include::Tickets/shared-collection-updates.adoc[]
 
 Tier 2 Support
 ==============

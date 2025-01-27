@@ -7,17 +7,16 @@ Evergreen can generate a PDF file of overdue notices which is then emailed to th
 . Paper overdues can be generated at the following intervals 1, 2, 3, 4, 5, 6, 7, 8, 9 or 10 weeks after the item becomes due. 
   .. The intervals define when a second, third, or fourth, and so on, letter is sent out.
   .. Paper overdues at 1 and 2 weeks overdue are generated for only for patrons without email addresses in their account. From the 3 weeks onwards the notices are generated for all applicable patrons.
+  .. The final paper overdue notice, at the library's chosen interval, can be set up as a billing notice and can include the item replacement cost and applicable processing fees. The replacement cost comes from the Price item attribute; if this attribute is blank the value set for the library setting Default Item Price is used instead. The processing fee uses the value from the library setting Lost Materials Processing Fee.
 
-The final paper overdue notice, at the interval of your choosing, can be set up as a billing notice and can include the item replacement cost and applicable processing fees. The replacement cost comes from the Price item attribute; if this attribute is blank the value set for the library setting Default Item Price is used instead. The processing fee uses the value from the library setting Lost Materials Processing Fee.
+
+Troubleshooting
+~~~~~~~~~~~~~~~
 
 A copy of all emails sent is sent to paper-overdue@sitka.bclibraries.ca
 
 URL - https://webmail.libraries.coop/horde/login.php
 password for that email account is at: https://vaultwarden.libraries.coop
-
-
-Troubleshooting
-~~~~~~~~~~~~~~~
 
 .If a library needs a notice resent to them
 . Ask the library to check their spam
@@ -25,4 +24,7 @@ Troubleshooting
 . Log in to paper-overdue@sitka.bclibraries.ca if you can forward the existing email do so.
 . If no notices were created for the day = escalate ticket
 
-https://wiki.libraries.coop/doku.php?id=sitka:support:paper_overdue
+More info can be found here : https://wiki.libraries.coop/doku.php?id=sitka:support:paper_overdue
+
+.If a library requests changes to the notice template
+. Assign ticket to Tina or Mark
