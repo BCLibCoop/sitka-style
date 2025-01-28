@@ -4,16 +4,28 @@ Testing guidelines
 Test Server Info
 ~~~~~~~~~~~~~~~~
 
+https://wiki.libraries.coop/doku.php?id=sitka:testing_server_info
+
 Testing guidelines
 ~~~~~~~~~~~~~~~~~~
 
-
+. Understand the Scope
+. Use testing checklist as a guide
+. Compare behaviour with current documentation and production server
 
 
 Bug and Issue Reporting
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-. report only one issue on a ticket.
-. Be as specific as possible describing your issue:
+.Create an RT ticket in the Testing queue.
+. Add the "3.x Upgrade" tag,
+. Report only one issue on a ticket.
+. Include the steps to take to replicate the issue.
+  .. Be as specific as possible describing your issue:
   .. What were you doing? What did you expect to happen? What actually happened?
 . Include screenshots
+. Attempt to replicate the issue on upstream server.
+  .. If it exists on both servers, it's an upstream bug and we can report it in Launchpad
+  .. https://bugs.launchpad.net/evergreen/
+
+
