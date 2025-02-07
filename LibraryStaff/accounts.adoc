@@ -40,6 +40,10 @@ The Local System Administrator permission group can only be edited by Sitka Staf
 Grant Reporter Permissions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+All library staff requesting permissions for reports functions must complete an on-line privacy waiver. https://bc.libraries.coop/support/sitka/reporter-privacy-waiver/
+
+Completed submissions are received as a new ticket in RT.
+
 .All Staff Permissions
 . Add perms**
 . Add barcode to end of Ticket Subject

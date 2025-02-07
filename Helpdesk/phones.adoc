@@ -32,6 +32,12 @@ Answering Calls
 . Thorough and consistent reporting makes it easier to document request history. Please create a ticket for every call you receive.
 . If you’re going to be AFK for an extended period please arrange with your backup person to cover phones. 
 
+General
+~~~~~~~
+
+If you get reports of access issues from within the library, please ask for their external IP address - https://whatismyipaddress.com/ 
+
+
 Sitka
 ~~~~~
 
@@ -79,3 +85,8 @@ NNELS
 .. https://nnels.ca/organizations/search 
 . Take their info and create a ticket in NNELS Queue 
 .. Who, what, where, when, why, how? 
+
+Others
+. If the caller indicates they are looking for info to "send discs back" they are likely looking for CELA
+.. Give them the # for CELA = 1-855-655-2273
+.. https://celalibrary.ca/about-us/faq-cela
