@@ -45,24 +45,27 @@ All library staff requesting permissions for reports functions must complete an 
 Completed submissions are received as a new ticket in RT.
 
 .All Staff Permissions
-. Ticket is received in Sitka Support Queue with subject = *All Staff Reporter Privacy Waiver Submission*
+. Ticket is received in Sitka Support Queue with subject = *New All Staff Reporter Privacy Waiver Submission*
 . Log in to Evergreen using a workstation registered to the requestors home library
 . Go to *Circulation -> Check Out*
 . Retrieve account using account barcode (or Patron Search)
 . Edit -> Verify the account contains the following: First Name, Last Name, Email, Phone Number, & Address.
 .. Incomplete staff accounts will not be granted reporter permissions.
-. Click *Secondary Groups* -> choose *View Reports Permissions*
+. Click *Secondary Groups* -> choose *Reporter View Output Permissions*
 . Click *Add*
 . Click *Apply Changes*
 . Click *Save*
-. Update RT ticket
-. Add barcode to end of Ticket Subject
-. Add library code to subject (start)
-. Add library tag
-.. Set status to Resolved
-.. Set resolution to Fixed
 . Reply to Requestor
 .. Include links to reports documentation
+. Update RT ticket
+.. Add the library code to start of the ticket subject
+.. Add the account barcode to end of the ticket subject
+.. Add library tag
+.. Set status to Resolved
+.. Set resolution to Fixed
+
+
+
 
 .Full Reporter Permissions
 . Ticket is received in Sitka Support Queue with subject = *New Full Reporter Privacy Waiver Submission*
@@ -75,31 +78,29 @@ Completed submissions are received as a new ticket in RT.
 . Click *Add*
 . Click *Apply Changes*
 . Click *Save*
+. Reply to Requestor
+.. Include links to reports documentation
 . Update RT ticket
 .. Add the library code to start of the ticket subject
 .. Add the account barcode to end of the ticket subject
 .. Add library tag
 .. Set status to Resolved
 .. Set resolution to Fixed
-. Reply to Requestor
-.. Include links to reports documentation
 
 
-NOTE: 
 
-
-New SIP Account
-~~~~~~~~~~~~~~~
+Request for 3rd Party Service Integration With Sitka's Evergreen
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .Request for 3rd Party Authentication
 . Ticket is received in Sitka Support Queue with subject = *Response submission for survey 3rd Party Service Integration With Sitka's Evergreen with results*
 . Check the wiki to determine if this is for an approved vendor/product
 .. https://wiki.libraries.coop/doku.php?id=sitka:sip2_users [SIP] 
 .. https://wiki.libraries.coop/sitka/patronapi/patronapi_users [PatronAPI]
-.. If not - Assign the ticket to Christine
-.. If yes - Assign the ticket to Brian.
+. If not on the approved vendor list - Assign the ticket to Christine
+. If it is an approved vendor - Assign the ticket to Brian.
 
-Note: Brian has taken over most SIP / PatronAPI account creation, but the following are the instructions to create a new SIP account for Support staff reference
+Note: Brian has taken over most SIP / PatronAPI account creation, but the following are the instructions to create a new SIP account.
 
 .Create a SIP-Client account
 . Log in to Evergreen using a workstation registered to the requestors home library
