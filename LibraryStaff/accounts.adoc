@@ -45,12 +45,24 @@ All library staff requesting permissions for reports functions must complete an 
 Completed submissions are received as a new ticket in RT.
 
 .All Staff Permissions
-. Add perms**
+. Ticket is received in Sitka Support Queue with subject = *All Staff Reporter Privacy Waiver Submission*
+. Log in to Evergreen using a workstation registered to the requestors home library
+. Go to *Circulation -> Check Out*
+. Retrieve account using account barcode (or Patron Search)
+. Edit -> Verify the account contains the following: First Name, Last Name, Email, Phone Number, & Address.
+.. Incomplete staff accounts will not be granted reporter permissions.
+. Click *Secondary Groups* -> choose *View Reports Permissions*
+. Click *Add*
+. Click *Apply Changes*
+. Click *Save*
+. Update RT ticket
 . Add barcode to end of Ticket Subject
 . Add library code to subject (start)
 . Add library tag
-. Resolved / Fixed
-. Reply to Requestor - Reporter View Output Permissions granted & link to docs
+.. Set status to Resolved
+.. Set resolution to Fixed
+. Reply to Requestor
+.. Include links to reports documentation
 
 .Full Reporter Permissions
 . Ticket is received in Sitka Support Queue with subject = *New Full Reporter Privacy Waiver Submission*
@@ -73,14 +85,21 @@ Completed submissions are received as a new ticket in RT.
 .. Include links to reports documentation
 
 
+NOTE: 
+
+
 New SIP Account
 ~~~~~~~~~~~~~~~
 
-.New SIP account
-. Ticket is received in Sitka Support Queue
-. Check the wiki https://wiki.libraries.coop/doku.php?id=sitka:sip2_users [SIP] to determine if this is for an approved vendor/product
+.Request for 3rd Party Authentication
+. Ticket is received in Sitka Support Queue with subject = *Response submission for survey 3rd Party Service Integration With Sitka's Evergreen with results*
+. Check the wiki to determine if this is for an approved vendor/product
+.. https://wiki.libraries.coop/doku.php?id=sitka:sip2_users [SIP] 
+.. https://wiki.libraries.coop/sitka/patronapi/patronapi_users [PatronAPI]
 .. If not - Assign the ticket to Christine
-.. If yes - Create a SIP-Client account in EG.
+.. If yes - Assign the ticket to Brian.
+
+Note: Brian has taken over most SIP / PatronAPI account creation, but the following are the instructions to create a new SIP account for Support staff reference
 
 .Create a SIP-Client account
 . Log in to Evergreen using a workstation registered to the requestors home library
@@ -88,7 +107,7 @@ New SIP Account
 .. create a user with profile "SIP Client" and barcode/username of the form sip2-shortname-service.
 .. Use a password generator to create a secure 16 digit alphanumeric password.
 . Record the account information on the wiki SIP2 User page
-. Add a comment to the ticket with a CC to Jeff asking him to add the new account's username and password to SIP server config.
+. Add a comment to the ticket with a CC to Brian asking to add the new account's username and password to SIP server config.
 . The next day, send the connection info to the library.
 .. The hostname, server port & username can be sent as a reply to the RT ticket.
 .. The password should be sent in a separate email with no context
