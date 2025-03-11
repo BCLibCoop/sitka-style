@@ -146,3 +146,19 @@ There is a bug preventing values from being removed from the _Max Event Validity
 staff client.  This means that inactive auto to lost triggers can't just be turned back on in the staff client; they should
 be referred to Tier2 Support.
 =========
+
+
+Headers and Macros
+^^^^^^^^^^^^^^^^^^
+
+If the template contains macros [% xxxxx -%] you must make sure to include the qualifiying information before the macros
+
+Example: macro = [% real_short %]
+
+[%- real_short = lib.shortname -%]
+[%- IF (lib.ou_type == 5 || lib.ou_type == 6 || lib.ou_type == 7 || lib.ou_type == 8) && lib.shortname != 'VOMB' && lib.shortname != 'BSE' && lib.shortname != 'BGI' -%]
+[%- real_short = lib.parent_ou.shortname -%]
+[%- END -%]
+ 
+You can log into your account here:
+https://[% real_short %].[% lib.mailing_address.state %].catalogue.libraries.coop/eg/opac/login?notice=P3D
