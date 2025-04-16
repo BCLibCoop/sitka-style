@@ -64,9 +64,6 @@ Completed submissions are received as a new ticket in RT.
 .. Set status to Resolved
 .. Set resolution to Fixed
 
-
-
-
 .Full Reporter Permissions
 . Ticket is received in Sitka Support Queue with subject = *New Full Reporter Privacy Waiver Submission*
 . Log in to Evergreen using a workstation registered to the requestors home library
@@ -115,6 +112,8 @@ Note: Brian has taken over most SIP / PatronAPI account creation, but the follow
 
 Evergreen Self Check
 ~~~~~~~~~~~~~~~~~~~~
+
+
 
 .Create an Evergreen Self Check account
 . Log in to Evergreen using a workstation registered to the requestors home library

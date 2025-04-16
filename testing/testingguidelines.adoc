@@ -10,6 +10,7 @@ Testing guidelines
 ~~~~~~~~~~~~~~~~~~
 
 . Understand the Scope
+  .. Upgrade
 . Use testing checklist as a guide
   ..  A list of the features or functionalities that need to be tested, and also include the test results. A quick overview to ensure that all necessary tests are performed.
 . Compare behaviour with current documentation and production server
