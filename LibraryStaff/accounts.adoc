@@ -84,6 +84,11 @@ Completed submissions are received as a new ticket in RT.
 .. Set status to Resolved
 .. Set resolution to Fixed
 
+Closing Library Staff Accounts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 
 
 Request for 3rd Party Service Integration With Sitka's Evergreen
