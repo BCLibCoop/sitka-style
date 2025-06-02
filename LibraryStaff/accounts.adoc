@@ -89,14 +89,17 @@ Closing Library Staff Accounts
 
 When a staff account is no longer to be used (e.g. retirement), it can be closed; some information for library staff here: https://docs.libraries.coop/sitka/_closing_library_staff_accounts.html
 
-. They can update the main patron profile permission group and working location of a staff account unless an account has LSA permissions (in which case we will).
-. If an account has reporter permissions, we need to check if the account is running any recurring reports. Run the report "Reports Run In Specified Time Period By Specified Library" (in the Recurring? column, 1 = true 0 = false), showing at least the last ~5 weeks.
-.. If there are no recurring reports coming from the account to be retired, it is more simple; simply remove reporter permissions.
-.. If an account to be retired is running recurring reports, inform library staff that the owner of the reports templates should make the folder these templates are in shared, so others can clone the templates, and then once cloned the old account can have the recurring reports cancelled by deleting any from the reports folder by the report owner.
-.. If the staff person whose account is being retired has already left, we can determine
-... whether the reports can just be cloned from the shared Sitka templates
-... whether they need to be cloned at all.
-.. Then, we can stop reports by contacting Tina.
+They can update the main patron profile permission group and working location of a staff account unless an account has LSA permissions (in which case we will). If an account has reporter permissions, we need to check if the account is running any recurring reports.
+
+Run the report "Reports Run In Specified Time Period By Specified Library" (in the Recurring? column, 1 = true 0 = false), showing at least the last ~5 weeks.
+
+If there are no recurring reports coming from the account to be retired, it is more simple; simply remove reporter permissions.
+
+If an account to be retired is running recurring reports, inform library staff that the owner of the reports templates should make the folder these templates are in shared, so others can clone the templates, and then once cloned the old account can have the recurring reports cancelled by deleting any from the reports folder by the report owner.
+
+If the staff person whose account is being retired has already left, we can determine a.) whether the reports can just be cloned from the shared Sitka templates, b.) whether they need to be cloned at all.
+
+Then, we can stop reports by contacting Tina.
 
 
 
