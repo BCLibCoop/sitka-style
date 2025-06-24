@@ -143,12 +143,13 @@ they likely to have.
 * Don't use jargon.
 * If you're using an acronym (like BC ILC) spell it out the first time (BC Interlibrary Connect) unless you're
  sure the person you're corresponding with knows the acroynm.
-* Take the time needed when responding to ensure you have all the needed information to follow up with the library.
-We strive to respond to tickets within 24 hours but that doesn't mean they need to be responded to as soon as they
-come in.
+* Quality answers are usually more efficient than quick answers and often it's ok to spend some time researching 
+the answer before responding.
 * We make recommendations on how the library should use the ILS and remind them of policy but the library is 
 ultimately responsible for ensuring they are following Sitka policies and the terms of their service management 
 agreement.
+
+
 
 
 
