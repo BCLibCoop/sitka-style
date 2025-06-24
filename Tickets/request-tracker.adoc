@@ -123,3 +123,33 @@ In the Custom Fields area on the right, you only need to set these fields (using
 Switch to the Details button at the top right corner and set the following fields:
 Set the Priority (using the above instructions).
 Once all is good, click Create. The ticket should appear in the appropriate queue.
+
+Guidelines for Ticket Responses
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+When responding to a support ticket the most important information should be in the first sentence/paragraph 
+of the response.  This is often an answer to a question, an action the library needs to take, or a request for 
+additional information. You can add more details in subsequent paragraphs but should stick to the essential
+details.  You can always expand on your answer in future responses if needed.
+
+Key things to remember:
+
+* Stick to the important information.
+* Don't overwelm with information.
+* Know your audience - what type of library are you communicating with, what level of technical skill are 
+they likely to have.
+* Think about your tone - be sure to communicate at an appropriate technical level. 
+* Use numbering when providing steps.
+* Don't use jargon.
+* If you're using an acronym (like BC ILC) spell it out the first time (BC Interlibrary Connect) unless you're
+ sure the person you're corresponding with knows the acroynm.
+* Take the time needed when responding to ensure you have all the needed information to follow up with the library.
+We strive to respond to tickets within 24 hours but that doesn't mean they need to be responded to as soon as they
+come in.
+* We make recommendations on how the library should use the ILS and remind them of policy but the library is 
+ultimately responsible for ensuring they are following Sitka policies and the terms of their service management 
+agreement.
+
+
+
+
