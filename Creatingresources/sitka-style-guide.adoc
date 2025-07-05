@@ -4,8 +4,8 @@ Style guide
 Creating Support Resources
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-https://wiki.libraries.coop/doku.php?id=cooperative:communications:visual_identity [Visual Identity]
+https://wiki.libraries.coop/doku.php?id=cooperative:communications:visual_identity[Visual Identity]
 
-https://wiki.libraries.coop/doku.php?id=sitka:support:creating_support_resources:style_guide [AsciiDoc Style Guide]
+https://wiki.libraries.coop/doku.php?id=sitka:support:creating_support_resources:style_guide[AsciiDoc Style Guide]
 
-https://wiki.libraries.coop/doku.php?id=sitka:support:creating_support_resources:style_guide:consistent_wording [Consistent Wording]
+https://wiki.libraries.coop/doku.php?id=sitka:support:creating_support_resources:style_guide:consistent_wording[Consistent Wording]

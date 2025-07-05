@@ -1,9 +1,9 @@
 Action Triggers
 ---------------
 
-http://docs.libraries.coop/sitka/admin-notice.html [Patron Notifications]
+http://docs.libraries.coop/sitka/admin-notice.html[Patron Notifications]
 
-https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:name_trigger [Action Trigger info from Wiki]
+https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:name_trigger[Action Trigger info from Wiki]
 
 Action Trigger templates are used in various system processes
 

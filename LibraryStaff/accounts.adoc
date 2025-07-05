@@ -6,7 +6,7 @@ Library staff accounts are the same as patron accounts with two differences.
 . Staff accounts use Main (Profile) Permissions Groups with permissions that give access to Evergreen’s staff functions.
 . Staff accounts have working locations which tell Evergreen which libraries or branches an account can be used at.
 
-http://docs.libraries.coop/sitka/_library_staff_accounts.html [Related Chapter in Sitka's Evergreen Documentation]
+http://docs.libraries.coop/sitka/_library_staff_accounts.html[Related Chapter in Sitka's Evergreen Documentation]
 
 NOTE: You must log in using a workstation registered to the requestors home library for all Library Staff related tickets.
 
@@ -109,8 +109,8 @@ Request for 3rd Party Service Integration With Sitka's Evergreen
 .Request for 3rd Party Authentication
 . Ticket is received in Sitka Support Queue with subject = *Response submission for survey 3rd Party Service Integration With Sitka's Evergreen with results*
 . Check the wiki to determine if this is for an approved vendor/product
-.. https://wiki.libraries.coop/doku.php?id=sitka:sip2_users [SIP] 
-.. https://wiki.libraries.coop/sitka/patronapi/patronapi_users [PatronAPI]
+.. https://wiki.libraries.coop/doku.php?id=sitka:sip2_users[SIP] 
+.. https://wiki.libraries.coop/sitka/patronapi/patronapi_users[PatronAPI]
 . If not on the approved vendor list - Assign the ticket to Christine
 . If it is an approved vendor - Assign the ticket to Brian.
 

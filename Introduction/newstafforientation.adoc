@@ -3,13 +3,13 @@ New Staff Orientation
 
 All new staff should read the following:
 
-* https://wiki.libraries.coop/doku.php?id=cooperative:orientation:about-the-coop [About the Co-op]
-* https://wiki.libraries.coop/doku.php?id=cooperative:orientation:tools-and-systems [Tools and Systems]
-* https://wiki.libraries.coop/doku.php?id=cooperative:orientation:procedures-and-expectations [Procedures and Expectations]
-* https://wiki.libraries.coop/doku.php?id=techadmin:security:security-advisory-for-staff [Security Advisory]
+* https://wiki.libraries.coop/doku.php?id=cooperative:orientation:about-the-coop[About the Co-op]
+* https://wiki.libraries.coop/doku.php?id=cooperative:orientation:tools-and-systems[Tools and Systems]
+* https://wiki.libraries.coop/doku.php?id=cooperative:orientation:procedures-and-expectations[Procedures and Expectations]
+* https://wiki.libraries.coop/doku.php?id=techadmin:security:security-advisory-for-staff[Security Advisory]
 
 Co-op Support Staff
 
-* https://bclc.wiki.libraries.coop/doku.php?id=support:start [Co-op Support Services]
+* https://bclc.wiki.libraries.coop/doku.php?id=support:start[Co-op Support Services]
 
 

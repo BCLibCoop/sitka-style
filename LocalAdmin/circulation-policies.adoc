@@ -1,7 +1,7 @@
 Circulation Policies
 --------------------
 
-https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:circ_policy [Circulation Policy info from Wiki]
+https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:circ_policy[Circulation Policy info from Wiki]
 
 Edit Circulation policies
 ~~~~~~~~~~~~~~~~~~~~~~~~~
