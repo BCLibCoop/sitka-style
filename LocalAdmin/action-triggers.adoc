@@ -5,14 +5,14 @@ http://docs.libraries.coop/sitka/admin-notice.html[Patron Notifications]
 
 https://bclc.wiki.libraries.coop/doku.php?id=sitka:support:administration:name_trigger[Action Trigger info from Wiki]
 
-Action Trigger templates are used in various system processes
+Action Trigger templates are used in various system processes.
 
 .Action Triggers are used for
 * Some Print functions
 * Automatically set overdue items to Lost
 * Patron Email Notifications
 
-Some templates are set at the Sitka level and cannot be customized.  Most templates are customizable per library.
+Some templates are set at the Sitka level and cannot be customized. Most templates are customizable per library.
 
 .Can't customize
 * Print Call number
@@ -26,6 +26,7 @@ Some templates are set at the Sitka level and cannot be customized.  Most templa
 * Hold Notifications
 * Patron Account Notifications
 
+
 Edit Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -35,6 +36,7 @@ Edit Action Trigger Templates
 . Select the template and click *Actions -> Edit Selected.*
 . Modify the template as needed.	
 . Click *Save.*
+
 
 Clone Action Trigger Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -48,6 +50,7 @@ Clone Action Trigger Templates
 . Add the library short code to the *Name* field.
 . Modify the template as needed.
 . Click *Save*
+
 
 Other info
 ~~~~~~~~~~
@@ -75,6 +78,9 @@ NOTE: Emailing checkout receipt uses opt_in_setting: 'circ.send_email_checkout_r
 
 NOTE: Events related to holds (including expiring holdshelf), booking reservation,
 checkin with missing pieces, recall *do not* use the opt_in_setting.
+
+NOTE: Depending on the trigger, the Processing Delay will be calculated differently. For example, triggers acting on an item due date count from 23:59 on the date something is due, while user account expiry counts from 00:00 on the date of account expiry.
+
 
 Auto to Lost Triggers
 ~~~~~~~~~~~~~~~~~~~~~
