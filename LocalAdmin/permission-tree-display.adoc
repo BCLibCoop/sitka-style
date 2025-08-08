@@ -15,7 +15,7 @@ Libraries can request for us to customize the displayed list of permission group
 .. The current selection will be in *bold* text
 .. Click on Users dropdown and select desired user role to add, then click *Submit*
 +
-image:images/root-entry.png[scaledwidth="75%"]
+image:images/root-entry.png[scaledwidth="50%"]
 +
 
 .Edit Custom Permission tree
@@ -25,7 +25,7 @@ image:images/root-entry.png[scaledwidth="75%"]
 .. Click on root entry to add user role to, then click *Add*
 .. Click on Users dropdown and select desired role to add, then click *Submit*
 +
-image:images/add-entry.png[scaledwidth="75%"]
+image:images/add-entry.png[scaledwidth="50%"]
 +
 . If removing a user role, select it in the list, then click *Remove*
 .. The current selection will be in *bold* text
