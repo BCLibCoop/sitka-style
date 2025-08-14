@@ -24,9 +24,6 @@ image:images/root-entry.png[scaledwidth="50%"]
 . If adding an entry:
 .. Click on root entry to add user role to, then click *Add*
 .. Click on Users dropdown and select desired role to add, then click *Submit*
-+
-image:images/add-entry.png[scaledwidth="50%"]
-+
 . If removing a user role, select it in the list, then click *Remove*
 .. The current selection will be in *bold* text
 . To adjust the position of a role, click on it, then click *Move Up* or *Move Down*
