@@ -30,11 +30,14 @@ Renew/Edit LSA Account
 
 The Local System Administrator permission group can only be edited by Sitka Staff
 
-.process
+.Process
 . Log in using a workstation registered to the requestors home library.
 . Go to *Circulation -> Check Out.*
 . Retrieve account using account barcode (or Patron Search).
 . Edit -> Make requested changes or click *Update Expire Date.*
++
+image::images/screenpal-test-screenshot.png[]
++
 . Click *Save.*
 
 Grant Reporter Permissions
