@@ -91,6 +91,19 @@ If -Things that need to be done, but don’t affect daily operations at all
 If- Affects one or few sites only, nice if it worked.
 Examples: cataloguing questions, policy questions, functionality questions, bug reporting, feature requests,
 
+Assigning Tags
+^^^^^^^^^^^^^^
+
+Purpose of the Kudos Tag 
+The Kudos Tag is intended to make ticket searchable where the service a member has received has prompted them to specifically call out the service they have received. 
+The kudos in the ticket can then be used in performance reviews to highlight accomplishments and testimonials to promote our services (with the author’s permission). 
+
+Criteria for Applying the Kudos Tag 
+The Kudos tag should be used when extra appreciation is shown for: 
+* the assistance received from a specific staff member 
+* general thanks to the team or the Co-op 
+* appreciation for new features, updates to a service 
+
 Using My Reminders in RT
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
