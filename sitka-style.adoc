@@ -45,6 +45,8 @@ include::LocalAdmin/permission-tree-display.adoc[]
 
 include::Tickets/shared-collection-updates.adoc[]
 
+include::LocalAdmin/annual-statistics.adoc[]
+
 Tier 2 Support
 ==============
 
