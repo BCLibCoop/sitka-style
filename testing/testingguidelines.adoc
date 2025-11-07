@@ -24,9 +24,9 @@ The following steps should be followed when testing issues reported by libraries
 the results you got.
 . Search Launchpad to see if a bug already exists for the reported issue.
 .. If you find an existing bug click *This bug affects X people. Does this bug affect you?* to indicate that
-we are affected by the bug.  Add a comment link it to the RT ticket and let the library know it's a known issue.
-.. If not already in the bug, add a comment to indicate that it affects the version of Evergreen you tested
-. If a bug report doesn't exist yet further testing is needed.
+we are affected by the bug. Add the Launchpad bug number to the RT ticket and let the library know it's a known issue.
+.. If not already in the bug, add a comment to indicate that it affects the version of Evergreen you tested.  If a 
+bug report doesn't exist yet further testing is needed.
 . When available test the issue on a Sitka test server running a newer version of Evergreen (this will generally
 be available in the lead up to the annual upgrade).
 . Test the issue on an Evergreen community test server running the same or newer version of Evergreen.
@@ -46,9 +46,9 @@ Upgrade Testing
 
 Extensive testing is done ahead of Sitka's annual upgrade.
 
-. Use testing checklist for the upgrade as a guide. 
-  ..  This include a a list of the new and existing features or functionalities that need to be tested.
-. Compare behaviour with current documentation and production server.
+. Use the testing checklist for the upgrade as a guide. 
+  ..  This include a list of the new and existing features and functionalities that need to be tested.
+. Tes on the upgrade server and compare the behaviour with current documentation and the production server.
 . Record the results of your testing in the checklist.
 
 When an issue is identified:
@@ -59,11 +59,12 @@ When an issue is identified:
 . Add the "3.x Upgrade" tag and any relevant EG-tags
 . Include the steps to take to replicate the issue.
   .. Be as specific as possible describing your issue:
-  .. What were you doing? What did you expect to happen? What actually happened?
+  .. What were you doing? What did you expect to happen? What actually happened? How does it differ from the 
+  current behaviour on the production server?
 . Include screenshots.
 . Attempt to replicate the issue on a Sitka upstream server or an Evergreen community test server running the same 
 version of Evergreen.
-  .. If it can be replicated it's an upstream bug and needs to be reported to Launchpad.
+  .. If it can be replicated it's an upstream bug and needs to be xref::_reporting_a_bug[reported to Launchpad].
 
 
 Launchpad
@@ -74,7 +75,7 @@ Reporting a Bug
 
 Bugs discovered in Sitka's Evergreen and confirmed on a Evergreen community test server should be 
 reported to https://bugs.launchpad.net/evergreen/[Launchpad], the Evergreen community's bug reporting tool.
-Once reported relevant RT tickets should be updated to include the Launchpad bug number.
+Once the bug is reported relevant RT tickets should be updated to include the Launchpad bug number.
 
 When reporting a bug include as much information as you can:
 
