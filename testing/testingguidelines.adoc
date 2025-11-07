@@ -7,7 +7,7 @@ issues are reported to RT and Launchpad in a timely manner.
 Test Server Info
 ~~~~~~~~~~~~~~~~
 
-Sitka test servers: https://wiki.libraries.coop/doku.php?id=sitka:testing_server_info
+Sitka test servers: https://wiki.libraries.coop/doku.php?id=sitka:testing_server_info (login required)
 
 Evergreen Community test servers: https://wiki.evergreen-ils.org/doku.php?id=community_servers
 
@@ -22,15 +22,16 @@ The following steps should be followed when testing issues reported by libraries
 .. Make sure to use a test server running the same version of Evergreen as production.
 . Detail your testing as a comment in the RT ticket.  Include the steps you took, the barcodes etc. you used, and 
 the results you got.
-. Search Launchpad to see if a bug already exists for the reported issue.
-.. If you find an existing bug click *This bug affects X people. Does this bug affect you?* to indicate that
-we are affected by the bug. Add the Launchpad bug number to the RT ticket and let the library know it's a known issue.
-.. If not already in the bug, add a comment to indicate that it affects the version of Evergreen you tested.  If a 
+. Search Launchpad to see if a bug already exists for the reported issue. If a 
 bug report doesn't exist yet further testing is needed.
+.. If you find an existing bug click *This bug affects X people. Does this bug affect you?* to indicate that
+we are affected by the bug. If not already in the bug, add a comment to indicate that it affects the version of Evergreen you tested.
+.. Add the Launchpad bug number to the RT ticket and let the library know it's a known issue.
 . When available test the issue on a Sitka test server running a newer version of Evergreen (this will generally
 be available in the lead up to the annual upgrade).
 . Test the issue on an Evergreen community test server running the same or newer version of Evergreen.
-. If the issue can be replicated on an Evergreen community test server report the issue to Launchpad.
+. If the issue can be replicated on an Evergreen community test server 
+xref::_reporting_a_bug[report the issue to Launchpad].
 . Follow the procedure to move the ticket into the xref::_sitka_bugs[Sitka Bugs] queue. 
 
 
@@ -48,7 +49,7 @@ Extensive testing is done ahead of Sitka's annual upgrade.
 
 . Use the testing checklist for the upgrade as a guide. 
   ..  This include a list of the new and existing features and functionalities that need to be tested.
-. Tes on the upgrade server and compare the behaviour with current documentation and the production server.
+. Test on the upgrade server and compare the behaviour with current documentation and the production server.
 . Record the results of your testing in the checklist.
 
 When an issue is identified:
