@@ -1,0 +1,37 @@
+Annual Statistics for Libraries
+-------------------------------
+
+BC Public Libraries
+~~~~~~~~~~~~~~~~~~~ 
+
+The current Sitka Statistics Reports for the Public Libraries Branch annual survey are found 
+here: https://bc.libraries.coop/support/sitka/llb-reports/ 
+
+Website statistics are included for LibPress libraries. 
+
+Additional information on the work can be found 
+here: http://docs.libraries.coop/policy/_annual_reports_for_public_libraries_branch_bc.html 
+
+The preparation of these reports is funded by the BC Public Libraries Branch. 
+
+Manitoba Public Libraries
+~~~~~~~~~~~~~~~~~~~~~~~~~ 
+
+Active Patron Statistics for Spruce Public Libraries can be found here: https://bc.libraries.coop/spruce-reports/ 
+
+Instructions for gathering the other statistics for the Manitoba Public Library Services Branch’s 
+annual survey can be found here: http://docs.libraries.coop/policy/_annual_reports_for_manitoba_public_library_services_branch_plsb.html 
+
+Website statistics for LibPress libraries can be found here: https://help.libraries.coop/libpress/1-the-basics/1-3-matomo-statistics/current-libpress-statistics/ 
+
+All Other Libraries
+~~~~~~~~~~~~~~~~~~~
+
+Other libraries are responsible for gathering their own annual statistics.
+
+We recommend libraries set up recurring monthly reports for statistics 
+that they need to report on annually. Report templates for circulation statistics, 
+collection size and make up, patron counts, and more can be found in the shared 
+Sitka_templates: http://docs.libraries.coop/sitka/_shared_sitka_templates.html#_what_8217_s_in_sitka_templates 
+
+
