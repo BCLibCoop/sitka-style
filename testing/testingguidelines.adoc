@@ -1,33 +1,108 @@
-Testing guidelines
+Testing Guidelines
 ------------------
+
+When testing it is important to follow Sitka's testing guidelines to ensure testing is consistent and
+issues are reported to RT and Launchpad in a timely manner.
 
 Test Server Info
 ~~~~~~~~~~~~~~~~
 
-https://wiki.libraries.coop/doku.php?id=sitka:testing_server_info
+Sitka test servers: https://wiki.libraries.coop/doku.php?id=sitka:testing_server_info
 
-Testing guidelines
-~~~~~~~~~~~~~~~~~~
+Evergreen Community test servers: https://wiki.evergreen-ils.org/doku.php?id=community_servers
 
-. Understand the Scope
-  .. Upgrade
-. Use testing checklist as a guide
-  ..  A list of the features or functionalities that need to be tested, and also include the test results. A quick overview to ensure that all necessary tests are performed.
-. Compare behaviour with current documentation and production server
+Support Issues Testing
+~~~~~~~~~~~~~~~~~~~~~~
+
+The following steps should be followed when testing issues reported by libraries:
+
+. Ensure you have all the relevant information from the library.
+. Attempt to replicate the issue on Sitka's testing server.
+.. Make sure to use the same or equivalent accounts, records, items, etc.
+.. Make sure to use a test server running the same version of Evergreen as production.
+. Detail your testing as a comment in the RT ticket.  Include the steps you took, the barcodes etc. you used, and 
+the results you got.
+. Search Launchpad to see if a bug already exists for the reported issue.
+.. If you find an existing bug click *This bug affects X people. Does this bug affect you?* to indicate that
+we are affected by the bug.  Add a comment link it to the RT ticket and let the library know it's a known issue.
+.. If not already in the bug, add a comment to indicate that it affects the version of Evergreen you tested
+. If a bug report doesn't exist yet further testing is needed.
+. When available test the issue on a Sitka test server running a newer version of Evergreen (this will generally
+be available in the lead up to the annual upgrade).
+. Test the issue on an Evergreen community test server running the same or newer version of Evergreen.
+. If the issue can be replicated on an Evergreen community test server report the issue to Launchpad.
+. Follow the procedure to move the ticket into the xref::_sitka_bugs[Sitka Bugs] queue. 
 
 
-Bug and Issue Reporting
-~~~~~~~~~~~~~~~~~~~~~~~
+[NOTE]
+====
+If you are unable to replicate the issue on a Sitka test server escalate the ticket to Tier 2 Support. Tier 2 Support will determine 
+whether further investigation is required.
+====
 
-.Create an RT ticket in the Testing queue.
-. Add the "3.x Upgrade" tag,
+
+Upgrade Testing
+~~~~~~~~~~~~~~~
+
+Extensive testing is done ahead of Sitka's annual upgrade.
+
+. Use testing checklist for the upgrade as a guide. 
+  ..  This include a a list of the new and existing features or functionalities that need to be tested.
+. Compare behaviour with current documentation and production server.
+. Record the results of your testing in the checklist.
+
+When an issue is identified:
+
+. Create an RT ticket in the Testing queue.
+. Link the RT ticket to the parent ticket for the upgrade.
 . Report only one issue on a ticket.
+. Add the "3.x Upgrade" tag and any relevant EG-tags
 . Include the steps to take to replicate the issue.
   .. Be as specific as possible describing your issue:
   .. What were you doing? What did you expect to happen? What actually happened?
-. Include screenshots
-. Attempt to replicate the issue on upstream server.
-  .. If it exists on both servers, it's an upstream bug and we can report it in Launchpad
-  .. https://bugs.launchpad.net/evergreen/
+. Include screenshots.
+. Attempt to replicate the issue on a Sitka upstream server or an Evergreen community test server running the same 
+version of Evergreen.
+  .. If it can be replicated it's an upstream bug and needs to be reported to Launchpad.
 
+
+Launchpad
+~~~~~~~~~
+
+Reporting a Bug
+^^^^^^^^^^^^^^^
+
+Bugs discovered in Sitka's Evergreen and confirmed on a Evergreen community test server should be 
+reported to https://bugs.launchpad.net/evergreen/[Launchpad], the Evergreen community's bug reporting tool.
+Once reported relevant RT tickets should be updated to include the Launchpad bug number.
+
+When reporting a bug include as much information as you can:
+
+* the version(s) of Evergreen you have tested.
+* the browser and version you are using.
+* the steps to replicate the issue (in a numbered list).
+* what happened.
+* what you expected to happen.
+
+Make sure to include relevant screenshots and 
+https://wiki.evergreen-ils.org/doku.php?id=dev:lp_tags[offical Evergreen tags].
+
+[CAUTION]
+=========
+Screenshots should always be taken using an Evergreen community server.  In rare circumtances
+Sitka's training server can be used. NEVER post a screenshot to Launchpad taken on a Sitka server
+that uses production data.
+=========
+
+Confirming and Updating Bugs
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sitka staff can mark bugs as affecting them, mark bugs as confirmed, and add additional information about
+a bug as a comment.  Staff can also sign off on bugs that have been tested, usually during 
+https://wiki.evergreen-ils.org/doku.php?id=dev:bug_squashing[Bug Squashing and Feedback Fest] weeks.
+
+Some Sitka staff are Evergreen Bug Wranglers and can edit the importance of a bug.  
+
+More information about the Evergreen community's use of Launchpad can be found on their
+https://wiki.evergreen-ils.org/doku.php?id=dev:bug_wrangler:faq[Evergreen Bug Wranger FAQ]. 
 
