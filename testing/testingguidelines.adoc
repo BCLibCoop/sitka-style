@@ -1,7 +1,7 @@
 Testing Guidelines
 ------------------
 
-When testing it is important to follow Sitka's testing guidelines to ensure testing is consistent and
+It is important to follow Sitka's testing guidelines to ensure testing is consistent and
 issues are reported to RT and Launchpad in a timely manner.
 
 Test Server Info
@@ -19,6 +19,7 @@ The following steps should be followed when testing issues reported by libraries
 . Ensure you have all the relevant information from the library.
 . Attempt to replicate the issue on Sitka's testing server.
 .. Make sure to use the same or equivalent accounts, records, items, etc.
+.. Do not use your Sitka Staff account for testing.
 .. Make sure to use a test server running the same version of Evergreen as production.
 . Detail your testing as a comment in the RT ticket.  Include the steps you took, the barcodes etc. you used, and 
 the results you got.
@@ -37,8 +38,7 @@ xref::_reporting_a_bug[report the issue to Launchpad].
 
 [NOTE]
 ====
-If you are unable to replicate the issue on a Sitka test server escalate the ticket to Tier 2 Support. Tier 2 Support will determine 
-whether further investigation is required.
+If you are unable to replicate the issue on a Sitka test server escalate the ticket to the Support Operations Lead. 
 ====
 
 
